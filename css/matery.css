@@ -16,7 +16,7 @@
 /*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
     .container {
-        width: 90%;
+        width: 85%;
         max-width: 1125px;
     }
 
@@ -1297,15 +1297,17 @@ thead {
 
 .chip-container .chip {
     margin: 10px 10px;
-    padding: 19px 14px;
+    padding: 0px 14px;
     display: inline-flex;
-    line-height: 0;
+	height:38px;
+	min-width:80px;
+	line-height:39px;
     font-size: 1rem;
     font-weight: 500;
     border-radius: 5px;
+	word-wrap: break-word;
     cursor: pointer;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .12);
-    z-index: 0;
 }
 
 .chip-container .chip:hover {
@@ -1567,12 +1569,22 @@ thead {
         animation: cd-bounce-2 0.6s;
     }
 }
+.contact-container {
+    width: 90%;
+    max-width: 900px;
+    margin-top: -60px;
+}
 
+@media only screen and (max-width: 600px) {
+    .contact-container {
+        width: 95%;
+    }
+}
 /* about page styles. */
 
 .about-container {
     width: 90%;
-    max-width: 1225px;
+    max-width: 1125px;
     margin-top: -60px;
 }
 
