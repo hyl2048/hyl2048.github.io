@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-04-14T02:17:28.403Z</updated>
+  <updated>2020-04-14T02:22:45.354Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Bugs</title>
+    <link href="https://github.com/hyl2048/30574.html"/>
+    <id>https://github.com/hyl2048/30574.html</id>
+    <published>2020-04-14T02:20:40.000Z</published>
+    <updated>2020-04-14T02:22:45.354Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Bugs" scheme="https://github.com/hyl2048/categories/Bugs/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>algorithm per day</title>
     <link href="https://github.com/hyl2048/29461.html"/>
     <id>https://github.com/hyl2048/29461.html</id>
     <published>2020-04-14T02:08:35.000Z</published>
-    <updated>2020-04-14T02:17:28.403Z</updated>
+    <updated>2020-04-14T02:18:07.074Z</updated>
     
     <summary type="html">
     
