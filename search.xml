@@ -27,7 +27,7 @@
       <link href="/30574.html"/>
       <url>/30574.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p><a href="https://chrischen0405.github.io/2018/11/21/post20181121-2/" target="_blank" rel="noopener">hexo发布文章报错can not read a block mapping entry</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p><a href="https://chrischen0405.github.io/2018/11/21/post20181121-2/" target="_blank" rel="noopener">hexo发布文章报错can not read a block mapping entry</a></p><h1 id="bert"><a href="#bert" class="headerlink" title="bert"></a>bert</h1><p><a href="https://blog.csdn.net/yangdan1025/article/details/103293891" target="_blank" rel="noopener">Bert在Win10启动server TypeError: cannot unpack non-iterable NoneType object</a></p>]]></content>
       
       
       <categories>
@@ -46,7 +46,7 @@
       <link href="/29461.html"/>
       <url>/29461.html</url>
       
-        <content type="html"><![CDATA[<p>day 1</p>]]></content>
+        <content type="html"><![CDATA[<p>day 1<br>two-sum<br>    暴力解法：时间复杂度为O（n^2）<br>    运用HashMap：时间复杂度为O（1），相比较于暴力解法，在数据规模较大的时候，还是有时间上的优势的。<br>            关于containsKey()方法，根据某种哈希算法，直接定位所要的元素，也就是说，这个查找的方法的时间复杂度为O（1），而并非O（n^2）。</p><p>参考：<a href="https://blog.csdn.net/qingtian_1993/article/details/80763381" target="_blank" rel="noopener">containsKey()方法的复杂度为何为O（1）</a></p>]]></content>
       
       
       <categories>
