@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>huang</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/hyl2048/"/>
+  <updated>2020-07-05T15:04:03.842Z</updated>
+  <id>https://github.com/hyl2048/</id>
+  
+  <author>
+    <name>yulin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Transfer Learning</title>
+    <link href="https://github.com/hyl2048/8787.html"/>
+    <id>https://github.com/hyl2048/8787.html</id>
+    <published>2020-04-14T02:37:46.000Z</published>
+    <updated>2020-07-05T15:04:03.842Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;跨领域情感分析&quot;&gt;&lt;a href=&quot;#跨领域情感分析&quot; class=&quot;headerlink&quot; title=&quot;跨领域情感分析&quot;&gt;&lt;/a&gt;跨领域情感分析&lt;/h1&gt;&lt;h2 id=&quot;综述&quot;&gt;&lt;a href=&quot;#综述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="NLP" scheme="https://github.com/hyl2048/categories/NLP/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Bugs</title>
+    <link href="https://github.com/hyl2048/30574.html"/>
+    <id>https://github.com/hyl2048/30574.html</id>
+    <published>2020-04-14T02:20:40.000Z</published>
+    <updated>2020-05-03T02:59:43.614Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Bugs" scheme="https://github.com/hyl2048/categories/Bugs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>algorithm per day</title>
+    <link href="https://github.com/hyl2048/29461.html"/>
+    <id>https://github.com/hyl2048/29461.html</id>
+    <published>2020-04-14T02:08:35.000Z</published>
+    <updated>2020-07-02T04:49:04.803Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;day-1&quot;&gt;&lt;a href=&quot;#day-1&quot; class=&quot;headerlink&quot; title=&quot;day 1&quot;&gt;&lt;/a&gt;day 1&lt;/h2&gt;&lt;h3 id=&quot;two-sum&quot;&gt;&lt;a href=&quot;#two-sum&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="每日算法" scheme="https://github.com/hyl2048/categories/%E6%AF%8F%E6%97%A5%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo+github/gitee/gitlab+optimization</title>
+    <link href="https://github.com/hyl2048/65248.html"/>
+    <id>https://github.com/hyl2048/65248.html</id>
+    <published>2020-04-14T00:55:22.000Z</published>
+    <updated>2020-04-14T01:42:00.375Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;参考文章&quot;&gt;&lt;a href=&quot;#参考文章&quot; class=&quot;headerlink&quot; title=&quot;参考文章&quot;&gt;&lt;/a&gt;参考文章&lt;/h1&gt;&lt;h2 id=&quot;建站&quot;&gt;&lt;a href=&quot;#建站&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Tool</title>
+    <link href="https://github.com/hyl2048/61453.html"/>
+    <id>https://github.com/hyl2048/61453.html</id>
+    <published>2020-03-31T12:37:54.000Z</published>
+    <updated>2020-07-03T17:04:55.609Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;语言文档&quot;&gt;&lt;a href=&quot;#语言文档&quot; class=&quot;headerlink&quot; title=&quot;语言文档&quot;&gt;&lt;/a&gt;语言文档&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://github.com/hyl2048/categories/Tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://github.com/hyl2048/16107.html"/>
+    <id>https://github.com/hyl2048/16107.html</id>
+    <published>2020-03-29T04:29:19.027Z</published>
+    <updated>2020-07-06T04:16:46.699Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
