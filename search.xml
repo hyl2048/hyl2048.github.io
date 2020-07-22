@@ -8,7 +8,7 @@
       <link href="/7663.html"/>
       <url>/7663.html</url>
       
-        <content type="html"><![CDATA[<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>​    （1）在Hexo下的.config.yml中设置post_asset_folder选项为true</p><p>​    （2）在git bash命令窗口下 使用hexo n “你的待插入图片的新建文章名称” 来生成新的md文件，在这个新建文件的同级目录下，会产生同名的文件夹。</p><p>​    （3）需要在新建md文件插入图片时，先把图片复制到（2）中的同名文件夹中</p><p>​    （4）按照花括号中的格式来插入图片<code>！[图片描述](github中的路径)</code>，例如，我上传文章的图片的路径为{<code>！[JVM 虚拟机运行时数据区](/17374/JVM.png)</code>}，如下图：</p><p>​                                                </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>​    （1）在Hexo下的.config.yml中设置post_asset_folder选项为true</p><p>​    （2）在git bash命令窗口下 使用hexo n “你的待插入图片的新建文章名称” 来生成新的md文件，在这个新建文件的同级目录下，会产生同名的文件夹。</p><p>​    （3）需要在新建md文件插入图片时，先把图片复制到（2）中的同名文件夹中</p><p>​    （4）按照花括号中的格式来插入图片<code>！[图片描述](待插入图片github中的路径)</code>。若没有路径，可先在git bash 上使用hexo相关命令提交文章来产生。例如，我上传文章的图片的路径为{<code>！[JVM 虚拟机运行时数据区](/17374/JVM.png)</code>}，如下图：</p><p>​                                                <img src="/7663/github_path.png" alt="图片在github中的路径"></p><p>​                                                <img src="/7663/Hexo_pic.png" alt="图片的在代码中显示的路径"></p><p>​     实际上，图片通过这种方法能正常显示是因为，图片通过这种已经存在于github上，再通过这种引用图片的格式<code>！[图片描述](待插入图片github中的路径)</code>，来显示图片。</p>]]></content>
       
       
       
