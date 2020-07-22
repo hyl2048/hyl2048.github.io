@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>hexo文章插图显示问题-个人测试有效</title>
+      <link href="/7663.html"/>
+      <url>/7663.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>​    （1）在Hexo下的.config.yml中设置post_asset_folder选项为true</p><p>​    （2）在git bash命令窗口下 使用hexo n “你的待插入图片的新建文章名称” 来生成新的md文件，在这个新建文件的同级目录下，会产生同名的文件夹。</p><p>​    （3）需要在新建md文件插入图片时，先把图片复制到（2）中的同名文件夹中</p><p>​    （4）按照花括号中的格式来插入图片<code>！[图片描述](github中的路径)</code>，例如，我上传文章的图片的路径为{<code>！[JVM 虚拟机运行时数据区](/17374/JVM.png)</code>}，如下图：</p><p>​                                                </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JVM</title>
       <link href="/17374.html"/>
       <url>/17374.html</url>
       
-        <content type="html"><![CDATA[<h1 id="JVM-第三版"><a href="#JVM-第三版" class="headerlink" title="JVM (第三版)"></a>JVM (第三版)</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/17374/JVM.png" alt="JVM 虚拟机运行时数据区"></p><p>深入理解JAVA虚拟主要围绕着上图来叙述，分为五大部分：</p><p>​        （1）JAVA发展历史：涉及JVM自诞生的版本到目前的版本的发展历程，其中，有讲述为何虚拟机会发生这样的演变，以及与其他类型虚拟机的的关系，并对虚拟机进行了展望。</p><p>​        （2）自动内存管理（运行时数据区）：涉及内存管理的异常，像内存溢出异常、OutOfMemory Error等，垃圾收集器，内存分配策略，故障处理方法与工具，调优方法。</p><p>​           (3）JVM执行子系统（执行）：类文件结构；JVM类加载的机制；字节码执行引擎；</p><p>​        （4）代码编译和优化；前端编译和优化（JAVA语法糖等）；后端编译与优化（即时编译、编译器优化技术-<strong>方法内联、逃逸分析</strong>等）</p><p>​        （5）高效并发：如何实现并发（JAVA内存模型）；如何高效实现并发（锁的介绍、<strong>锁优化</strong>-锁粗化、锁自旋、锁偏向等等）</p><p>​            </p>]]></content>
+        <content type="html"><![CDATA[<h1 id="深入理解JAVA虚拟机-第三版"><a href="#深入理解JAVA虚拟机-第三版" class="headerlink" title="深入理解JAVA虚拟机 (第三版)"></a>深入理解JAVA虚拟机 (第三版)</h1><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/17374/JVM.png" alt="JVM 虚拟机运行时数据区"></p><p>《深入理解JAVA虚拟》第三版主要围绕着上图来叙述，分为五大部分：</p><p>​        （1）JAVA发展历史：涉及JVM自诞生的版本到目前的版本的发展历程，其中，有讲述为何虚拟机会发生这样的演变，以及与其他类型虚拟机的的关系，并对虚拟机进行了展望。</p><p>​        （2）自动内存管理（运行时数据区）：涉及内存管理的异常，像内存溢出异常、OutOfMemory Error等，垃圾收集器，内存分配策略，故障处理方法与工具，调优方法。</p><p>​           (3）JVM执行子系统（执行）：类文件结构；JVM类加载的机制；字节码执行引擎；</p><p>​        （4）代码编译和优化；前端编译和优化（JAVA语法糖等）；后端编译与优化（即时编译、编译器优化技术-<strong>方法内联、逃逸分析</strong>等）</p><p>​        （5）高效并发：如何实现并发（JAVA内存模型）；如何高效实现并发（锁的介绍、<strong>锁优化</strong>-锁粗化、锁自旋、锁偏向等等）</p><p>若需要《深入理解JAVA虚拟机》第三版pdf，可发邮件至###qhuang724@gmail.com###（发送时去掉#）</p><p>​            </p>]]></content>
       
       
       

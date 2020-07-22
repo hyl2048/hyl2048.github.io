@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-07-22T00:40:26.186Z</updated>
+  <updated>2020-07-22T01:18:45.068Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JVM</title>
-    <link href="https://github.com/hyl2048/17374.html"/>
-    <id>https://github.com/hyl2048/17374.html</id>
-    <published>2020-07-21T15:15:37.000Z</published>
-    <updated>2020-07-22T00:40:26.186Z</updated>
+    <title>hexo文章插图显示问题-个人测试有效</title>
+    <link href="https://github.com/hyl2048/7663.html"/>
+    <id>https://github.com/hyl2048/7663.html</id>
+    <published>2020-07-22T00:59:38.000Z</published>
+    <updated>2020-07-22T01:18:45.068Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,31 @@
       
         
         
-          &lt;h1 id=&quot;JVM-第三版&quot;&gt;&lt;a href=&quot;#JVM-第三版&quot; class=&quot;headerlink&quot; title=&quot;JVM (第三版)&quot;&gt;&lt;/a&gt;JVM (第三版)&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img
+          &lt;h2 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h2&gt;&lt;p&gt;​    （1）在Hexo下的.config.yml中设置post_asset_folder选项为true&lt;/p&gt;
+&lt;p&gt;​   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JVM</title>
+    <link href="https://github.com/hyl2048/17374.html"/>
+    <id>https://github.com/hyl2048/17374.html</id>
+    <published>2020-07-21T15:15:37.000Z</published>
+    <updated>2020-07-22T00:52:10.297Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;深入理解JAVA虚拟机-第三版&quot;&gt;&lt;a href=&quot;#深入理解JAVA虚拟机-第三版&quot; class=&quot;headerlink&quot; title=&quot;深入理解JAVA虚拟机 (第三版)&quot;&gt;&lt;/a&gt;深入理解JAVA虚拟机
         
       
     
