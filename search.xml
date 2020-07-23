@@ -8,7 +8,7 @@
       <link href="/51507.html"/>
       <url>/51507.html</url>
       
-        <content type="html"><![CDATA[<h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><p>​        问题类型：</p><p>​                修改栈</p><p>​                递归与栈</p><p>​                树</p><p>​        解法类型：</p><p>​                单调栈</p><p>​                双指针</p><p>​                语言自带工具类</p><h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><p>​         </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><p>​        问题类型：</p><p>​                修改栈</p><p>​                递归与栈</p><p>​                树</p><p>​                利用栈实现队列</p><p>​        解法类型：</p><p>​                单调栈</p><p>​                双指针</p><p>​                双栈</p><p>​                观察并推导出数学公式</p><p>​                语言自带工具类</p><p>​            </p><h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><p>​                滑动窗口</p><h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><p>​            注意：Deque同时具有双端队列的性质</p><h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>​            优先队列和堆</p><h2 id="优化算法的方法"><a href="#优化算法的方法" class="headerlink" title="优化算法的方法"></a>优化算法的方法</h2><p>​            二分法？？</p><p>​            </p><p>​                </p><p>​         </p>]]></content>
       
       
       
