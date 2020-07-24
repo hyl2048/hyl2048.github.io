@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>On Java 8</title>
+      <link href="/29494.html"/>
+      <url>/29494.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="万物皆对象"><a href="#万物皆对象" class="headerlink" title="万物皆对象"></a>万物皆对象</h2><p>​        把万物看作对象，对象之间在传递信息。</p><p>​        对象的创建，对象的存储（数量、类型），对象之间的关系处理（对象间传递信息），对象的销毁，异常处理</p><h2 id="抽象"><a href="#抽象" class="headerlink" title="抽象"></a>抽象</h2><h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><p>​        Java 为单继承语言，有别于多继承的C++</p><h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><p>​        多样式与向上转型</p><p>​        多态和构造器</p><p>​        <strong>多态的好处</strong>在于解耦</p><h2 id="复用"><a href="#复用" class="headerlink" title="复用"></a>复用</h2><p>​        组合和继承</p><p>​        构造器加载顺序（对比销毁顺序）</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>​        </p><p>​        </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>算法与数据结构</title>
       <link href="/51507.html"/>
       <url>/51507.html</url>
