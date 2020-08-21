@@ -1,4 +1,506 @@
-<!DOCTYPE HTML><html lang="zh-CN"><head><meta charset="utf-8"><meta name="keywords" content="算法与数据结构, huang"><meta name="description" content=""><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="renderer" content="webkit|ie-stand|ie-comp"><meta name="mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script async src="https://www.googletagmanager.com/gtag/js?id="></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","")</script><title>算法与数据结构 | huang</title><link rel="icon" type="image/png" href="/favicon.png"><link rel="stylesheet" href="/libs/awesome/css/all.css"><link rel="stylesheet" href="/libs/materialize/materialize.min.css"><link rel="stylesheet" href="/libs/aos/aos.css"><link rel="stylesheet" href="/libs/animate/animate.min.css"><link rel="stylesheet" href="/libs/lightGallery/css/lightgallery.min.css"><link rel="stylesheet" href="/css/matery.css"><link rel="stylesheet" href="/css/my.css"><script src="/libs/jquery/jquery.min.js"></script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="huang" type="application/atom+xml"></head><body><header class="navbar-fixed"><nav id="headNav" class="bg-color nav-transparent"><div id="navContainer" class="nav-wrapper container"><div class="brand-logo"><a href="/" class="waves-effect waves-light"><img src="/medias/logo.png" class="logo-img" alt="LOGO"> <span class="logo-span">huang</span></a></div><a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a><ul class="right nav-menu"><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-home" style="zoom:.6"></i> <span>首页</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/tags" class="waves-effect waves-light"><i class="fas fa-tags" style="zoom:.6"></i> <span>标签</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/categories" class="waves-effect waves-light"><i class="fas fa-bookmark" style="zoom:.6"></i> <span>分类</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/archives" class="waves-effect waves-light"><i class="fas fa-archive" style="zoom:.6"></i> <span>归档</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/about" class="waves-effect waves-light"><i class="fas fa-user-circle" style="zoom:.6"></i> <span>关于</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/contact" class="waves-effect waves-light"><i class="fas fa-comments" style="zoom:.6"></i> <span>留言板</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/friends" class="waves-effect waves-light"><i class="fas fa-address-book" style="zoom:.6"></i> <span>友情链接</span></a></li><li><a href="#searchModal" class="modal-trigger waves-effect waves-light"><i id="searchIcon" class="fas fa-search" title="搜索" style="zoom:.85"></i></a></li></ul><div id="mobile-nav" class="side-nav sidenav"><div class="mobile-head bg-color"><img src="/medias/logo.png" class="logo-img circle responsive-img"><div class="logo-name">huang</div><div class="logo-desc">Never really desperate, only the lost of the soul.</div></div><ul class="menu-list mobile-menu-list"><li class="m-nav-item"><a href="/" class="waves-effect waves-light"><i class="fa-fw fas fa-home"></i> 首页</a></li><li class="m-nav-item"><a href="/tags" class="waves-effect waves-light"><i class="fa-fw fas fa-tags"></i> 标签</a></li><li class="m-nav-item"><a href="/categories" class="waves-effect waves-light"><i class="fa-fw fas fa-bookmark"></i> 分类</a></li><li class="m-nav-item"><a href="/archives" class="waves-effect waves-light"><i class="fa-fw fas fa-archive"></i> 归档</a></li><li class="m-nav-item"><a href="/about" class="waves-effect waves-light"><i class="fa-fw fas fa-user-circle"></i> 关于</a></li><li class="m-nav-item"><a href="/contact" class="waves-effect waves-light"><i class="fa-fw fas fa-comments"></i> 留言板</a></li><li class="m-nav-item"><a href="/friends" class="waves-effect waves-light"><i class="fa-fw fas fa-address-book"></i> 友情链接</a></li><li><div class="divider"></div></li><li><a href="https://github.com/hyl2048" class="waves-effect waves-light" target="_blank"><i class="fab fa-github-square fa-fw"></i> Fork Me</a></li></ul></div></div><style>.nav-transparent .github-corner{display:none!important}.github-corner{position:absolute;z-index:10;top:0;right:0;border:0;transform:scale(1.1)}.github-corner svg{color:#0f9d58;fill:#fff;height:64px;width:64px}.github-corner:hover .octo-arm{animation:a .56s ease-in-out}.github-corner .octo-arm{animation:none}@keyframes a{0%,to{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}</style><a href="https://github.com/hyl2048" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Fork Me" data-position="left" data-delay="50"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0 0 115 115 130 115 142 142 250 250 250 0Z"></path><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentColor" style="transform-origin:130px 106px" class="octo-arm"></path><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4L133.7 101.6C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8Z" fill="currentColor" class="octo-body"></path></svg></a></nav></header><div class="bg-cover pd-header post-cover" style="background-image:url(/medias/featureimages/23.jpg)"><div class="container" style="right:0;left:0"><div class="row"><div class="col s12 m12 l12"><div class="brand"><h1 class="description center-align post-title">算法与数据结构</h1></div></div></div></div></div><main class="post-container content"><link rel="stylesheet" href="/libs/tocbot/tocbot.css"><style>#articleContent h1::before,#articleContent h2::before,#articleContent h3::before,#articleContent h4::before,#articleContent h5::before,#articleContent h6::before{display:block;content:" ";height:100px;margin-top:-100px;visibility:hidden}#articleContent :focus{outline:0}.toc-fixed{position:fixed;top:64px}.toc-widget{width:345px;padding-left:20px}.toc-widget .toc-title{margin:35px 0 15px 0;padding-left:17px;font-size:1.5rem;font-weight:700;line-height:1.5rem}.toc-widget ol{padding:0;list-style:none}#toc-content{height:calc(100vh - 250px);overflow:auto}#toc-content ol{padding-left:10px}#toc-content ol li{padding-left:10px}#toc-content .toc-link:hover{color:#42b983;font-weight:700;text-decoration:underline}#toc-content .toc-link::before{background-color:transparent;max-height:25px}#toc-content .is-active-link{color:#42b983}#toc-content .is-active-link::before{background-color:#42b983}#floating-toc-btn{position:fixed;right:15px;bottom:76px;padding-top:15px;margin-bottom:0;z-index:998}#floating-toc-btn .btn-floating{width:48px;height:48px}#floating-toc-btn .btn-floating i{line-height:48px;font-size:1.4rem}</style><div class="row"><div id="main-content" class="col s12 m12 l9"><div id="artDetail"><div class="card"><div class="card-content article-info"><div class="row tag-cate"><div class="col s7"><div class="article-tag"><span class="chip bg-color">无标签</span></div></div><div class="col s5 right-align"></div></div><div class="post-info"><div class="post-date info-break-policy"><i class="far fa-calendar-minus fa-fw"></i> 发布日期:&nbsp;&nbsp; 2020-07-23</div></div></div><hr class="clearfix"><div class="card-content article-card-content"><div id="articleContent"><h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><p>​ 问题类型：</p><p>​ 修改栈</p><p>​ 递归与栈</p><p>​ 树</p><p>​ 利用栈实现队列</p><p>​ 解法类型：</p><p>​ 单调栈</p><p>​ 双指针</p><p>​ 双栈</p><p>​ 观察并推导出数学公式</p><p>​ 语言自带工具类</p><p>​</p><h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><p>​ 滑动窗口</p><h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><p>​ 注意：Deque同时具有双端队列的性质</p><h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>​ 优先队列和堆</p><h2 id="优化算法的方法"><a href="#优化算法的方法" class="headerlink" title="优化算法的方法"></a>优化算法的方法</h2><p>​ 二分法？？</p><h2 id="树"><a href="#树" class="headerlink" title="树"></a>树</h2><p>二叉树</p><p>​</p><p>平衡二叉树</p><p>​ 一般的二叉查找树的查询复杂度是跟目标结点到树根的距离（即深度）有关，因此当结点的深度普遍较大时，查询的均摊复杂度会上升，为了更高效的查询，平衡树应运而生了。<strong>平衡指所有叶子的深度趋于平衡，更广义的是指在树上所有可能查找的均摊复杂度偏低。</strong></p><p>​ AVL树是最先发明的 <strong>自平衡二叉查找树</strong>。在AVL树中任何节点的两个子树的高度最大差别为一，所以它也被称为高度平衡树。</p><ul><li>它的左子树和右子树都是平衡二叉树。</li><li>左子树和右子树的深度之差的绝对值不超过1。</li></ul><p>增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。</p><ul><li>右旋：左结点转到根节点位置。</li><li>左旋：右节点转到根节点位置。</li></ul><blockquote><p>高度为<code>k</code>的AVL树，节点数N最多<code>2^k -1</code>，即满二叉树；</p></blockquote><p>红黑树</p><p>​ 红黑树是一种自平衡二叉查找树，每个节点都带有颜色属性的二叉查找树，颜色为红色或黑色。在二叉查找树强制一般要求以外，对于任何有效的红黑树我们增加了如下的额外要求：</p><ul><li>节点是红色或黑色。</li><li>根是黑色。</li><li>所有叶子都是黑色（叶子是NIL节点）。</li><li>每个红色节点必须有两个黑色的子节点。（从每个叶子到根的所有路径上不能有两个连续的红色节点。）</li><li>从任一节点到其每个叶子的所有简单路径都包含相同数目的黑色节点。</li></ul><p>​ <img src="https://hadyang.github.io/interview/docs/basic/algo/tree/images/red_black_tree.png" alt="img"></p><p>​ 红黑树相对于AVL树来说，牺牲了部分平衡性以换取插入/删除操作时少量的旋转操作，整体来说性能要优于AVL树。</p><p>​ 这些约束确保了红黑树的关键特性：<strong>从根到叶子的最长的可能路径不多于最短的可能路径的两倍长</strong>。结果是这个树大致上是平衡的。因为操作比如插入、删除和查找某个值的最坏情况时间都要求与树的高度成比例，这个在高度上的理论上限 <strong>允许红黑树在最坏情况下都是高效的</strong>，而不同于普通的二叉查找树。</p><p>在很多树数据结构的表示中，一个节点有可能只有一个子节点，而叶子节点包含数据。用这种范例表示红黑树是可能的，但是这会改变一些性质并使算法复杂。为此，本文中我们使用”nil叶子”或”空（null）叶子”，如上图所示，它不包含数据而只充当树在此结束的指示。<strong>这些节点在绘图中经常被省略，导致了这些树好像同上述原则相矛盾，而实际上不是这样</strong>。与此有关的结论是所有节点都有两个子节点，尽管其中的一个或两个可能是空叶子。</p><p>因为每一个红黑树也是一个特化的二叉查找树，因此红黑树上的只读操作与普通二叉查找树上的只读操作相同。然而，在红黑树上进行插入操作和删除操作会导致不再符合红黑树的性质。<strong>恢复红黑树的性质需要少量（O(log n)）的颜色变更（实际是非常快速的）和不超过三次树旋转（对于插入操作是两次）</strong>。虽然插入和删除很复杂，但操作时间仍可以保持为O(log n)次。</p><p>​</p><p>​</p><p>​</p></div><hr><div class="reprint" id="reprint-statement"><div class="reprint__author"><span class="reprint-meta" style="font-weight:700"><i class="fas fa-user">文章作者:</i></span> <span class="reprint-info"><a href="https://github.com/hyl2048" rel="external nofollow noreferrer">yulin</a></span></div><div class="reprint__type"><span class="reprint-meta" style="font-weight:700"><i class="fas fa-link">文章链接:</i></span> <span class="reprint-info"><a href="https://github.com/hyl2048/51507.html">https://github.com/hyl2048/51507.html</a></span></div><div class="reprint__notice"><span class="reprint-meta" style="font-weight:700"><i class="fas fa-copyright">版权声明:</i></span> <span class="reprint-info">本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a> 许可协议。转载请注明来源 <a href="https://github.com/hyl2048" target="_blank">yulin</a> !</span></div></div><script async defer>document.addEventListener("copy", function (e) {
+<!DOCTYPE HTML><html lang="zh-CN"><head><meta charset="utf-8"><meta name="keywords" content="算法与数据结构, huang"><meta name="description" content=""><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="renderer" content="webkit|ie-stand|ie-comp"><meta name="mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script async src="https://www.googletagmanager.com/gtag/js?id="></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","")</script><title>算法与数据结构 | huang</title><link rel="icon" type="image/png" href="/favicon.png"><link rel="stylesheet" href="/libs/awesome/css/all.css"><link rel="stylesheet" href="/libs/materialize/materialize.min.css"><link rel="stylesheet" href="/libs/aos/aos.css"><link rel="stylesheet" href="/libs/animate/animate.min.css"><link rel="stylesheet" href="/libs/lightGallery/css/lightgallery.min.css"><link rel="stylesheet" href="/css/matery.css"><link rel="stylesheet" href="/css/my.css"><script src="/libs/jquery/jquery.min.js"></script><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="huang" type="application/atom+xml"></head><body><header class="navbar-fixed"><nav id="headNav" class="bg-color nav-transparent"><div id="navContainer" class="nav-wrapper container"><div class="brand-logo"><a href="/" class="waves-effect waves-light"><img src="/medias/logo.png" class="logo-img" alt="LOGO"> <span class="logo-span">huang</span></a></div><a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a><ul class="right nav-menu"><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-home" style="zoom:.6"></i> <span>首页</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/tags" class="waves-effect waves-light"><i class="fas fa-tags" style="zoom:.6"></i> <span>标签</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/categories" class="waves-effect waves-light"><i class="fas fa-bookmark" style="zoom:.6"></i> <span>分类</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/archives" class="waves-effect waves-light"><i class="fas fa-archive" style="zoom:.6"></i> <span>归档</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/about" class="waves-effect waves-light"><i class="fas fa-user-circle" style="zoom:.6"></i> <span>关于</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/contact" class="waves-effect waves-light"><i class="fas fa-comments" style="zoom:.6"></i> <span>留言板</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/friends" class="waves-effect waves-light"><i class="fas fa-address-book" style="zoom:.6"></i> <span>友情链接</span></a></li><li><a href="#searchModal" class="modal-trigger waves-effect waves-light"><i id="searchIcon" class="fas fa-search" title="搜索" style="zoom:.85"></i></a></li></ul><div id="mobile-nav" class="side-nav sidenav"><div class="mobile-head bg-color"><img src="/medias/logo.png" class="logo-img circle responsive-img"><div class="logo-name">huang</div><div class="logo-desc">Never really desperate, only the lost of the soul.</div></div><ul class="menu-list mobile-menu-list"><li class="m-nav-item"><a href="/" class="waves-effect waves-light"><i class="fa-fw fas fa-home"></i> 首页</a></li><li class="m-nav-item"><a href="/tags" class="waves-effect waves-light"><i class="fa-fw fas fa-tags"></i> 标签</a></li><li class="m-nav-item"><a href="/categories" class="waves-effect waves-light"><i class="fa-fw fas fa-bookmark"></i> 分类</a></li><li class="m-nav-item"><a href="/archives" class="waves-effect waves-light"><i class="fa-fw fas fa-archive"></i> 归档</a></li><li class="m-nav-item"><a href="/about" class="waves-effect waves-light"><i class="fa-fw fas fa-user-circle"></i> 关于</a></li><li class="m-nav-item"><a href="/contact" class="waves-effect waves-light"><i class="fa-fw fas fa-comments"></i> 留言板</a></li><li class="m-nav-item"><a href="/friends" class="waves-effect waves-light"><i class="fa-fw fas fa-address-book"></i> 友情链接</a></li><li><div class="divider"></div></li><li><a href="https://github.com/hyl2048" class="waves-effect waves-light" target="_blank"><i class="fab fa-github-square fa-fw"></i> Fork Me</a></li></ul></div></div><style>.nav-transparent .github-corner{display:none!important}.github-corner{position:absolute;z-index:10;top:0;right:0;border:0;transform:scale(1.1)}.github-corner svg{color:#0f9d58;fill:#fff;height:64px;width:64px}.github-corner:hover .octo-arm{animation:a .56s ease-in-out}.github-corner .octo-arm{animation:none}@keyframes a{0%,to{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}</style><a href="https://github.com/hyl2048" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Fork Me" data-position="left" data-delay="50"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0 0 115 115 130 115 142 142 250 250 250 0Z"></path><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentColor" style="transform-origin:130px 106px" class="octo-arm"></path><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4L133.7 101.6C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8Z" fill="currentColor" class="octo-body"></path></svg></a></nav></header><div class="bg-cover pd-header post-cover" style="background-image:url(/medias/featureimages/23.jpg)"><div class="container" style="right:0;left:0"><div class="row"><div class="col s12 m12 l12"><div class="brand"><h1 class="description center-align post-title">算法与数据结构</h1></div></div></div></div></div><main class="post-container content"><link rel="stylesheet" href="/libs/tocbot/tocbot.css"><style>#articleContent h1::before,#articleContent h2::before,#articleContent h3::before,#articleContent h4::before,#articleContent h5::before,#articleContent h6::before{display:block;content:" ";height:100px;margin-top:-100px;visibility:hidden}#articleContent :focus{outline:0}.toc-fixed{position:fixed;top:64px}.toc-widget{width:345px;padding-left:20px}.toc-widget .toc-title{margin:35px 0 15px 0;padding-left:17px;font-size:1.5rem;font-weight:700;line-height:1.5rem}.toc-widget ol{padding:0;list-style:none}#toc-content{height:calc(100vh - 250px);overflow:auto}#toc-content ol{padding-left:10px}#toc-content ol li{padding-left:10px}#toc-content .toc-link:hover{color:#42b983;font-weight:700;text-decoration:underline}#toc-content .toc-link::before{background-color:transparent;max-height:25px}#toc-content .is-active-link{color:#42b983}#toc-content .is-active-link::before{background-color:#42b983}#floating-toc-btn{position:fixed;right:15px;bottom:76px;padding-top:15px;margin-bottom:0;z-index:998}#floating-toc-btn .btn-floating{width:48px;height:48px}#floating-toc-btn .btn-floating i{line-height:48px;font-size:1.4rem}</style><div class="row"><div id="main-content" class="col s12 m12 l9"><div id="artDetail"><div class="card"><div class="card-content article-info"><div class="row tag-cate"><div class="col s7"><div class="article-tag"><span class="chip bg-color">无标签</span></div></div><div class="col s5 right-align"></div></div><div class="post-info"><div class="post-date info-break-policy"><i class="far fa-calendar-minus fa-fw"></i> 发布日期:&nbsp;&nbsp; 2020-07-23</div></div></div><hr class="clearfix"><div class="card-content article-card-content"><div id="articleContent"><h2 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h2><p>​ 问题类型：</p><p>​ 修改栈</p><p>​ 递归与栈</p><p>​ 树</p><p>​ 利用栈实现队列</p><p>​ 解法类型：</p><p>​ 单调栈</p><p>​ 双指针</p><p>​ 双栈</p><p>​ 观察并推导出数学公式</p><p>​ 语言自带工具类</p><p>​</p><h2 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h2><p>​ 滑动窗口</p><h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><p>​ 注意：Deque同时具有双端队列的性质</p><h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>​ 优先队列和堆</p><h2 id="优化算法的方法"><a href="#优化算法的方法" class="headerlink" title="优化算法的方法"></a>优化算法的方法</h2><p>​ 二分法？？</p><h2 id="树"><a href="#树" class="headerlink" title="树"></a>树</h2><p>二叉树</p><p>​ L、D、R分别表示遍历左子树、访问根结点和遍历右子树</p><ul><li>先序（根）遍历：DLR</li><li>中序（根）遍历：LDR</li><li>后序（根）遍历：LRD</li></ul><blockquote><p>仅有前序和后序遍历，不能确定一个二叉树，必须有中序遍历的结果</p></blockquote><h3 id="二叉树的性质"><a href="#二叉树的性质" class="headerlink" title="二叉树的性质"></a>二叉树的性质</h3><ul><li><code>性质1</code>：在二叉树中第 i 层的结点数最多为 2^{i-1}2<em>i</em>−1 （i ≥ 1）</li><li><code>性质2</code>：高度为k的二叉树其结点总数最多为 2^{k}－12<em>k</em>－1 （k ≥ 1）</li><li><code>性质3</code>：对任意的非空二叉树 T ，如果叶结点的个数为n<em>0 ，而其度为 2 的结点数为n</em>2 ，则： n<em>0=</em>n2+1</li></ul><h3 id="满二叉树"><a href="#满二叉树" class="headerlink" title="满二叉树"></a>满二叉树</h3><p>深度为k，且有 2^k-1 个节点称之为 <strong>满二叉树</strong>；</p><ul><li><code>性质4</code>：第i层上的节点数为 2^{i-1} ；</li></ul><h3 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h3><p>深度为k，有n个节点的二叉树，当且仅当其每一个节点都与深度为k的满二叉树中，序号为1至n的节点对应时，称之为<code>完全二叉树</code>。</p><ul><li><code>性质5</code>：对于具有n个结点的完全二叉树的高度为 log_{2}^{n}+1</li></ul><h3 id="二叉树的构造"><a href="#二叉树的构造" class="headerlink" title="二叉树的构造"></a>二叉树的构造</h3><pre><code class="C">//n 表示当前结点字符
+Node* tree(vector&lt;char&gt; data, int n) {
+
+    Node* node;
+
+    if (n &gt;= data.size())
+        return NULL;
+    if (data[n] == &#39;#&#39;)
+        return NULL;
+
+    node = new Node;
+    node-&gt;data = data[n];
+
+    node-&gt;left = tree(data, n + 1);
+    node-&gt;right = tree(data, n + 2);
+    return node;
+}</code></pre><h2 id="堆-1"><a href="#堆-1" class="headerlink" title="堆"></a>堆</h2><p>堆通常是一个可以被看做一棵树的数组对象。堆的实现通过构造二叉堆（binary heap），实为二叉树的一种；</p><ul><li>任意节点小于（或大于）它的所有后裔，最小元（或最大元）在堆的根上（堆序性）。</li><li><strong>堆总是一棵完全树</strong>。即除了最底层，其他层的节点都被元素填满，且最底层尽可能地从左到右填入。</li></ul><p>将根节点最大的堆叫做<code>最大堆</code>或大根堆，根节点最小的堆叫做<code>最小堆</code>或小根堆。常见的堆有二叉堆、斐波那契堆等。</p><p>通常堆是通过一维数组来实现的。在数组起始位置为1的情形中：</p><ul><li>父节点i的左子节点在位置 2×<em>i</em> ;</li><li>父节点i的右子节点在位置 2×<em>i</em>+1 ;</li><li>子节点i的父节点在位置 i÷2 ;</li></ul><h2 id="霍夫曼树"><a href="#霍夫曼树" class="headerlink" title="霍夫曼树"></a>霍夫曼树</h2><p>霍夫曼树又称最优二叉树，<strong>是一种带权路径长度最短的二叉树</strong>。所谓树的带权路径长度，就是树中所有的叶结点的权值乘上其到根结点的路径长度（若根结点为0层，叶结点到根结点的路径长度为叶结点的层数）。<strong>树的路径长度是从树根到每一结点的路径长度之和</strong>，记为 WPL=W1\times L1+W2\times L2+W3\times L3+…+Wn\times Ln<em>W<strong>P</strong>L</em>=<em>W</em>1×<em>L</em>1+<em>W</em>2×<em>L</em>2+<em>W</em>3×<em>L</em>3+…+<em>W<strong>n<em>×</em>L</strong>n</em> ，N个权值Wi（i=1,2,…n）构成一棵有N个叶结点的二叉树，相应的叶结点的路径长度为Li（i=1,2,…n）。<strong>可以证明霍夫曼树的WPL是最小的</strong>。</p><h3 id="霍夫曼树构造"><a href="#霍夫曼树构造" class="headerlink" title="霍夫曼树构造"></a>霍夫曼树构造</h3><ol><li>根据给定的n个权值<code>(W1,W2...Wn)</code>，使对应节点构成n个二叉树的森林<code>T=(T1,T2...Tn)</code>，其中每个二叉树<code>Ti(1 &lt;= i &lt;= n)</code>中都有一个带权值为Wi的根节点，其左、右子树均为空。</li><li>在森林T中选取两个节点权值最小的子树，分别作为左、右子树构造一个新的二叉树，且置新的二叉树的根节点的权值为其左右子树上根节点权值之和。</li><li>在森林T中，用新得到的二叉树替代选取的两个二叉树。</li><li>重复2和3，直到T只包含一个树为止。这个数就是霍夫曼树。</li></ol><blockquote><p>定理：对于具有n个叶子节点的霍夫曼树，共有<code>2n-1</code>个节点。这是由于霍夫曼树只有度为0和度为2的结点，根据二叉树的性质 <code>n0 = n2 + 1</code>，因此度为2的结点个数为<code>n-1</code>个，总共有<code>2n-1</code>个节点。</p></blockquote><h3 id="霍夫曼编码"><a href="#霍夫曼编码" class="headerlink" title="霍夫曼编码"></a>霍夫曼编码</h3><p>对于一个霍夫曼树，所有左链接取’0’、右链接取’1’。从树根至树叶依序记录所有字母的编码。</p><h3 id="带权路径"><a href="#带权路径" class="headerlink" title="带权路径"></a>带权路径</h3><ul><li><code>结点的权</code>：若将树中结点赋给一个有着某种含义的数值，则这个数值称为该结点的权。</li><li><code>结点的带权路径</code>：从根结点到该结点之间的路径长度与该结点的权的乘积。</li><li><code>树的带权路径</code>：所有叶子结点的带权路径长度之和，记为<code>WPL</code>。</li></ul><h2 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h2><p>​ 一般的二叉查找树的查询复杂度是跟目标结点到树根的距离（即深度）有关，因此当结点的深度普遍较大时，查询的均摊复杂度会上升，为了更高效的查询，平衡树应运而生了。<strong>平衡指所有叶子的深度趋于平衡，更广义的是指在树上所有可能查找的均摊复杂度偏低。</strong></p><p>​ AVL树是最先发明的 <strong>自平衡二叉查找树</strong>。在AVL树中任何节点的两个子树的高度最大差别为一，所以它也被称为高度平衡树。</p><ul><li>它的左子树和右子树都是平衡二叉树。</li><li>左子树和右子树的深度之差的绝对值不超过1。</li></ul><p>增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。</p><ul><li>右旋：左结点转到根节点位置。</li><li>左旋：右节点转到根节点位置。</li></ul><blockquote><p>高度为<code>k</code>的AVL树，节点数N最多<code>2^k -1</code>，即满二叉树；</p></blockquote><p>红黑树</p><p>​ 红黑树是一种自平衡二叉查找树，每个节点都带有颜色属性的二叉查找树，颜色为红色或黑色。在二叉查找树强制一般要求以外，对于任何有效的红黑树我们增加了如下的额外要求：</p><ul><li>节点是红色或黑色。</li><li>根是黑色。</li><li>所有叶子都是黑色（叶子是NIL节点）。</li><li>每个红色节点必须有两个黑色的子节点。（从每个叶子到根的所有路径上不能有两个连续的红色节点。）</li><li>从任一节点到其每个叶子的所有简单路径都包含相同数目的黑色节点。</li></ul><p>​ <img src="https://hadyang.github.io/interview/docs/basic/algo/tree/images/red_black_tree.png" alt="img"></p><p>​ 红黑树相对于AVL树来说，牺牲了部分平衡性以换取插入/删除操作时少量的旋转操作，整体来说性能要优于AVL树。</p><p>​ 这些约束确保了红黑树的关键特性：<strong>从根到叶子的最长的可能路径不多于最短的可能路径的两倍长</strong>。结果是这个树大致上是平衡的。因为操作比如插入、删除和查找某个值的最坏情况时间都要求与树的高度成比例，这个在高度上的理论上限 <strong>允许红黑树在最坏情况下都是高效的</strong>，而不同于普通的二叉查找树。</p><p>在很多树数据结构的表示中，一个节点有可能只有一个子节点，而叶子节点包含数据。用这种范例表示红黑树是可能的，但是这会改变一些性质并使算法复杂。为此，本文中我们使用”nil叶子”或”空（null）叶子”，如上图所示，它不包含数据而只充当树在此结束的指示。<strong>这些节点在绘图中经常被省略，导致了这些树好像同上述原则相矛盾，而实际上不是这样</strong>。与此有关的结论是所有节点都有两个子节点，尽管其中的一个或两个可能是空叶子。</p><p>因为每一个红黑树也是一个特化的二叉查找树，因此红黑树上的只读操作与普通二叉查找树上的只读操作相同。然而，在红黑树上进行插入操作和删除操作会导致不再符合红黑树的性质。<strong>恢复红黑树的性质需要少量（O(log n)）的颜色变更（实际是非常快速的）和不超过三次树旋转（对于插入操作是两次）</strong>。虽然插入和删除很复杂，但操作时间仍可以保持为O(log n)次。</p><h2 id="B树"><a href="#B树" class="headerlink" title="B树"></a>B树</h2><p>B树是一种自平衡的树，能够保持数据有序。这种数据结构能够让查找数据、顺序访问、插入数据及删除的动作，复杂度均为 O(n)<em>O</em>(<em>n</em>) 。总的来说，B树是一个泛化的二叉查找树，一个节点可以拥有两个以上的子节点。但其与自平衡二叉查找树不同，B树更适合大数据块的存储系统，例如：磁盘。</p><p>在B树中，内部（非叶子）节点可以拥有可变数量的子节点（数量范围预先定义好）。当数据被插入或从一个节点中移除，它的子节点数量发生变化。为了维持在预先设定的数量范围内，内部节点可能会被 <strong>合并</strong> 或者 <strong>分离</strong>。因为子节点数量有一定的允许范围，所以B树不需要像其他自平衡查找树那样频繁地重新保持平衡，但是由于节点 <strong>没有被完全填充</strong>，可能浪费了一些空间。子节点数量的上界和下界依特定的实现而设置。例如，在一个2-3 B树（通常简称2-3树），每一个内部节点只能有 2 或 3 个子节点。</p><p>根据 Knuth 的定义，一个 m 阶的B树是一个有以下属性的树：</p><ul><li>每一个节点最多有 m 个子节点</li><li>每一个非叶子节点（除根节点）最少有 m\div 2<em>m</em>÷2 个子节点</li><li>如果根节点不是叶子节点，那么它至少有两个子节点</li><li>有 k 个子节点的非叶子节点拥有 k − 1 个键</li><li>所有的叶子节点都在同一层</li></ul><p>每一个内部节点的键将节点的子树分开。例如，如果一个内部节点有 3 个子节点（子树），那么它就必须有两个键： a1 和 a2 。左边子树的所有值都必须小于 a1 ，中间子树的所有值都必须在 a1 和a2 之间，右边子树的所有值都必须大于 a2 。</p><p>B树内的节点可分为三类：</p><ul><li>内部节点：内部节点是除叶子节点和根节点之外的所有节点。它们通常被表示为一组有序的元素和指向子节点的指针。</li><li>根节点：根节点拥有的子节点数量的上限和内部节点相同，但是没有下限。</li><li>叶子节点：叶子节点对元素的数量有相同的限制，但是没有子节点，也没有指向子节点的指针。</li></ul><p><img src="https://hadyang.github.io/interview/docs/basic/algo/tree/images/b.png" alt="img"></p><h3 id="B树的查找"><a href="#B树的查找" class="headerlink" title="B树的查找"></a>B树的查找</h3><p>在B树中的查找给定关键字的方法 <strong>类似于二叉排序树上的查找，不同的是在每个节点上确定向下查找的路径不一定是二路的，而是n+1路的</strong>。因为节点内的关键字序列key[1..n]有序，故既可以使用顺序查找，也可以使用二分查找。在一棵B树上查找关键字为k的方法为：将k与根节点中的key[i]进行比较：</p><ol><li>若k=key[i]，则查找成功；</li><li>若k&lt;key[1]，则沿指针ptr[0]所指的子树继续查找；</li><li>若key[i]&lt;k&lt;key[i+1]，则沿着指针ptr[i]所指的子树继续查找；</li><li>若k&gt;key[n]，则沿着指针ptr[n]所指的子树继续查找。</li></ol><h3 id="B树的插入"><a href="#B树的插入" class="headerlink" title="B树的插入"></a>B树的插入</h3><p>将关键字k插入到B树的过程分两步完成：</p><ol><li>利用B树的查找算法查找出该关键字的插入节点(注意B树的插入节点一定属于最低非叶子节点层)。</li><li>判断该节点是否还有空位，即判断该节点是否满足n &lt; m-1，若满足：直接把关键字k插入到该节点合适位置上；若不满足：分裂节点，取一新节点，把原节点上的关键字和k按升序排列后，从中间位置(m/2)处把关键字(不包括中间位置的关键字)分成两部分，左部分所含关键字放在旧节点中，右部分关键字放在新节点中，中间位置的关键字连同新节点的存储位置插入到双亲节点。如果双亲节点的关键字个数也超出max则再分裂。</li></ol><h3 id="B树的删除"><a href="#B树的删除" class="headerlink" title="B树的删除"></a>B树的删除</h3><p>首先查找B树中需删除的元素，如果该元素在B树中存在，则将该元素在其结点中进行删除；如果删除该元素后，首先判断该元素是否有左右孩子结点，如果有，则上移孩子结点中的某相近元素到父节点中，然后是移动之后的情况；如果没有，直接删除后，然后是移动之后的情况。</p><p>删除元素，移动相应元素之后，如果某结点中元素数目（即关键字数）小于Min(m/2)-1，则需要看其某相邻兄弟结点是否丰满，如果丰满，则向父节点借一个元素来满足条件；如果其相邻兄弟都刚脱贫，即借了之后其结点数目小于Min(m/2)-1，则该结点与其相邻的某一兄弟结点进行“合并”成一个结点，</p><h2 id="B-树"><a href="#B-树" class="headerlink" title="B+树"></a>B+树</h2><p><img src="https://hadyang.github.io/interview/docs/basic/algo/tree/images/b+.png" alt="img"></p><p>B+ 树是 B 树的变体，也是一种多路搜索树。m阶的 B+ 树和 B 树的主要差异如下：</p><ul><li>在B+树中，<strong>具有n个关键字的节点含有n个子树</strong>，即每个关键字对应一个子树，而在B树中，具有n个关键字的节点含有(n+1)个子树。</li><li>在B+树中，每个节点(除根节点外)中的关键字个数n的取值范围是[m/2] &lt;= n &lt;= m，根节点n的取值范围2 &lt;=n &lt;=m；而在B树中，除根节点外，其他所有非叶子节点的关键字个数：[m/2]-1 &lt;= n &lt;= m-1，根节点关键字个数为1 &lt;= n &lt;= m-1</li><li><strong>B+树中所有叶子节点包含了全部关键字</strong>，即其他非叶子节点中的关键字包含在叶子节点中，而在B树中，关键字是不重复的。</li><li><strong>B+树中所有非叶子节点仅起到索引的作用</strong>，即节点中每个索引项值含有对应子树的最大关键字和指向该子树的指针，不含有该关键字对应记录的存储地址。而在B树中，每个关键字对应一个记录的存储地址。</li><li><strong>在 B+ 树所有叶子节点链接成一个不定长的线性表</strong>。</li></ul><h3 id="B-树的查找"><a href="#B-树的查找" class="headerlink" title="B+树的查找"></a>B+树的查找</h3><p>在B+树中可以采用两种查找方式：</p><ul><li>直接从最小关键字开始顺序查找。</li><li>从B+树的根节点开始随机查找。这种查找方式与B树的查找方式类似，只是在分支节点上的关键字与查找值相等时，查找并不会结束，要继续查到叶子节点为止，此时若查找成功，则按所给指针取出对应元素。</li></ul><p>在B+树中，不管查找是否成功，<strong>每次查找都是经历一条树从根节点到叶子节点的路径</strong>。</p><h3 id="B-树的插入"><a href="#B-树的插入" class="headerlink" title="B+树的插入"></a>B+树的插入</h3><ol><li>首先，查找要插入其中的节点的位置。接着把值插入这个节点中。</li><li>如果没有节点处于违规状态则处理结束。</li><li>如果某个节点有过多元素，则把它分裂为两个节点，每个都有最小数目的元素。在树上递归向上继续这个处理直到到达根节点，如果根节点被分裂，则创建一个新根节点。为了使它工作，元素的最小和最大数目典型的必须选择为使最小数不小于最大数的一半。</li></ol><h3 id="B-树的删除"><a href="#B-树的删除" class="headerlink" title="B+树的删除"></a>B+树的删除</h3><ol><li>首先，查找要删除的值。接着从包含它的节点中删除这个值。</li><li>如果没有节点处于违规状态则处理结束。</li><li>如果节点处于违规状态则有两种可能情况：<ul><li>它的兄弟节点，可以把一个或多个它的子节点转移到当前节点，而把它返回为合法状态。如果是这样，在更改父节点和两个兄弟节点的分离值之后处理结束。</li><li>它的兄弟节点由于处在低边界上而没有额外的子节点。在这种情况下把两个兄弟节点合并到一个单一的节点中，而且我们递归到父节点上，因为它被删除了一个子节点。持续这个处理直到当前节点是合法状态或者到达根节点，在其上根节点的子节点被合并而且合并后的节点成为新的根节点。</li></ul></li></ol><h3 id="B-树的优势所在"><a href="#B-树的优势所在" class="headerlink" title="B+树的优势所在"></a>B+树的优势所在</h3><p>为什么说B+树比B树更适合实际应用中操作系统的文件索引和数据库索引？</p><ol><li>B+树的中间节点能存储更多指针</li><li><strong>B+树的查询效率更加稳定</strong>：关键字查询的路径长度相同</li><li><strong>减少回溯</strong>：由于B+树中叶子节点存在指针，所以在范围查找时不需要回溯到父节点，直接类型链表遍历即可，减少IO</li></ol><h2 id="Trie树"><a href="#Trie树" class="headerlink" title="Trie树"></a>Trie树</h2><p><code>Trie树</code>，又称前缀树，<code>字典树</code>， 是一种有序树，用于保存关联数组，其中的键通常是字符串。与二叉查找树不同，键不是直接保存在节点中，而是由节点在树中的位置决定。<strong>一个节点的所有子孙都有相同的前缀，也就是这个节点对应的字符串，而根节点对应空字符串</strong>。一般情况下，不是所有的节点都有对应的值，只有叶子节点和部分内部节点所对应的键才有相关的值。</p><p><strong>Trie树查询和插入时间复杂度都是 O(n)，是一种以空间换时间的方法。当节点树较多的时候，Trie 树占用的内存会很大</strong>。</p><p>Trie树常用于搜索提示。如当输入一个网址，可以自动搜索出可能的选择。当没有完全匹配的搜索结果，可以返回前缀最相似的可能。</p><h2 id="Hash"><a href="#Hash" class="headerlink" title="Hash"></a>Hash</h2><p>哈希表（Hash Table，也叫散列表），是根据关键码值 (Key-Value) 而直接进行访问的数据结构。也就是说，<strong>它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度</strong>。哈希表的实现主要需要解决两个问题，哈希函数和冲突解决。</p><h3 id="哈希函数"><a href="#哈希函数" class="headerlink" title="哈希函数"></a>哈希函数</h3><p>哈希函数也叫散列函数，它对不同的输出值得到一个固定长度的消息摘要。理想的哈希函数对于不同的输入应该产生不同的结构，<strong>同时散列结果应当具有同一性（输出值尽量均匀）和雪崩效应（微小的输入值变化使得输出值发生巨大的变化）</strong>。</p><h3 id="冲突解决"><a href="#冲突解决" class="headerlink" title="冲突解决"></a>冲突解决</h3><ul><li><p><code>开放地址法</code>：</p><p>以发生冲突的哈希地址为输入，通过某种哈希冲突函数得到一个新的空闲的哈希地址的方法有以下几种方式：</p></li><li><p><code>线性探查法</code>：从发生冲突的地址开始，依次探查下一个地址，直到找到一个空闲单元。</p></li><li><p><code>平方探查法</code>：设冲突地址为d0，则探查序列为：d0+1^2,d0-1^2,d0+2^2…</p></li></ul><ul><li><code>拉链法</code>：把所有的同义词用单链表链接起来。在这种方法下，哈希表每个单元中存放的不再是元素本身，而是相应同义词单链表的头指针。<code>HashMap</code>就是使用这种方法解决冲突的。</li></ul><p><img src="https://hadyang.github.io/interview/docs/basic/algo/hash/images/hashmap-structure.png" alt="img"></p><h2 id="最小生成树算法"><a href="#最小生成树算法" class="headerlink" title="最小生成树算法"></a>最小生成树算法</h2><ul><li><code>连通图</code>：在无向图G中，若从顶点i到顶点j有路径，则称顶点i和顶点j是连通的。若图G中任意两个顶点都连通，则称G为连通图。</li><li><code>生成树</code>：一个连通图的生成树是该连通图的一个极小连通子图，它含有全部顶点，但只有构成一个数的<code>(n-1)</code>条边。</li><li><code>最小生成树</code>：对于一个带权连通无向图G中的不同生成树，各树的边上的 <strong>权值之和最小</strong>。构造最小生成树的准则有三条：<ul><li>必须只使用该图中的边来构造最小生成树。</li><li>必须使用且仅使用<code>(n-1)</code>条边来连接图中的n个顶点。</li><li>不能使用产生回路的边。</li></ul></li></ul><h3 id="Prim算法"><a href="#Prim算法" class="headerlink" title="Prim算法"></a>Prim算法</h3><p>假设G=(V,E)是一个具有n个顶点的带权连通无向图，T(U,TE)是G的最小生成树，其中U是T的顶点集，TE是T的边集，则由G构造从起始顶点v出发的最小生成树T的步骤为：</p><ul><li>初始化U={v}，以v到其他顶点的所有边为候选边(U中所有点到其他顶点的边)。</li><li>重复以下步骤(n-1)次，使得其他(n-1)个顶点被加入到U中。<ul><li>从候选边中挑选权值最小的边加入TE，设该边在<code>V-U</code>(这里是集合减)中的顶点是k，将k加入U中。</li><li>考察当前V-U中的所有顶点j，修改候选边，若边(k,j)的权值小于原来和顶点j关联的候选边，则用(k,j)取代后者作为候选边。</li></ul></li></ul><p><img src="https://hadyang.github.io/interview/docs/basic/algo/mst/images/prim.jpg" alt="img"></p><h3 id="Kruskal算法"><a href="#Kruskal算法" class="headerlink" title="Kruskal算法"></a>Kruskal算法</h3><p>假设G=(V,E)是一个具有n个顶点的带权连通无向图，T(U,TE)是G的最小生成树，其中U是T的顶点集，TE是T的边集，则由G构造从起始顶点v出发的最小生成树T的步骤为：</p><ul><li>置U的初始值等于V(即包含G中的全部顶点)，TE的初始值为空</li><li>将图G中的边按权值从小到大的顺序依次选取，若选取的边未使生成树T形成回路，则加入TE，否则放弃，知道TE中包含(n-1)条边为止。</li></ul><h1 id="最短路径算法"><a href="#最短路径算法" class="headerlink" title="最短路径算法"></a>最短路径算法</h1><h2 id="Dijkstra-——-贪心算法"><a href="#Dijkstra-——-贪心算法" class="headerlink" title="Dijkstra —— 贪心算法"></a>Dijkstra —— 贪心算法</h2><blockquote><p>从一个顶点到其余顶点的最短路径</p></blockquote><p>设<code>G=(V,E)</code>是一个带权有向图，把图中顶点集合V分成两组，第1组为已求出最短路径的顶点（用S表示，初始时S只有一个源点，以后每求得一条最短路径<code>v,...k</code>，就将k加到集合S中，直到全部顶点都加入S）。第2组为其余未确定最短路径的顶点集合（用U表示），按最短路径长度的递增次序把第2组的顶点加入S中。</p><pre><code>步骤：
+
+1. 初始时，S只包含源点，即`S={v}`，顶点v到自己的距离为0。U包含除v外的其他顶点，v到U中顶点i的距离为边上的权。
+2. 从U中选取一个顶点u，顶点v到u的距离最小，然后把顶点u加入S中。
+3. 以顶点u为新考虑的中间点，修改v到U中各个点的距离。
+4. 重复以上步骤知道S包含所有顶点。</code></pre><h2 id="Floyd-——-动态规划"><a href="#Floyd-——-动态规划" class="headerlink" title="Floyd —— 动态规划"></a>Floyd —— 动态规划</h2><p>Floyd 算法是解决任意两点间的最短路径的一种算法，可以正确处理有向图或负权（但不可存在负权回路）的最短路径问题。该算法的时间复杂度为 O(N^{3})<em>O</em>(<em>N</em>3) ，空间复杂度为 O(N^{2})<em>O</em>(<em>N</em>2)</p><p>设 D_{i,j,k}<em>D**i</em>,<em>j</em>,<em>k</em> 为从 i<em>i</em> 到 j<em>j</em> 的只以 (1..k)(1..<em>k</em>) 集合中的节点为中间节点的最短路径的长度。</p><p>$$ D_{i,j,k}=\begin{cases} D_{i,j,k-1} &amp; 最短路径不经过 k<br>D_{i,k,k-1}+D_{k,j,k-1} &amp; 最短路径经过 k \end{cases} $$</p><p>因此， D_{i,j,k}=min(D_{i,k,k-1}+D_{k,j,k-1},D_{i,j,k-1})<em>D**i</em>,<em>j</em>,<em>k</em>=<em>m<strong>i</strong>n</em>(<em>D**i</em>,<em>k</em>,<em>k</em>−1+<em>D**k</em>,<em>j</em>,<em>k</em>−1,<em>D**i</em>,<em>j</em>,<em>k</em>−1) 。伪代码描述如下：</p><pre><code>// let dist be a |V| × |V| array of minimum distances initialized to ∞ (infinity)
+ for each vertex v
+    dist[v][v] ← 0
+ for each edge (u,v)
+    dist[u][v] ← w(u,v)  // the weight of the edge (u,v)
+ for k from 1 to |V|
+    for i from 1 to |V|
+       for j from 1 to |V|
+          if dist[i][j] &gt; dist[i][k] + dist[k][j]
+             dist[i][j] ← dist[i][k] + dist[k][j]
+         end if</code></pre><h1 id="KMP算法"><a href="#KMP算法" class="headerlink" title="KMP算法"></a><a href="https://zh.wikipedia.org/wiki/克努斯-莫里斯-普拉特算法" target="_blank" rel="noopener">KMP算法</a></h1><p>KMP算法解决的问题是字符匹配，这个算法把字符匹配的时间复杂度缩小到<code>O(m+n)</code>,而空间复杂度也只有O(m),n是target的长度，m是pattern的长度。</p><ul><li>部分匹配表（Next数组）：表的作用是 <strong>让算法无需多次匹配S中的任何字符</strong>。能够实现线性时间搜索的关键是 <strong>在不错过任何潜在匹配的情况下，我们”预搜索”这个模式串本身并将其译成一个包含所有可能失配的位置对应可以绕过最多无效字符的列表</strong>。</li><li>Next数组（前缀和前缀的比较）：t为模式串，j为下标<ul><li><code>Next[0] = -1</code></li><li><code>Next[j] = MAX{ k | 0 &lt; k &lt; j | &quot; t0 t1 ... tk &quot; = &quot;t ( j-k ) t ( j-k+1 ) ... t( j-1 )&quot; }</code></li></ul></li></ul><p>|i| 0| 1| 2| 3| 4| 5 |6| |–| | t[i]| A| B| C| D| A| B| D| |next[i]| -1| 0 |0 |0 |0 |1 |2|</p><ul><li>NextVal数组：是一种优化后的Next数组，是为了解决类似<code>aaaab</code>这种模式串的匹配，减少重复的比较。 如果<code>t[next[j]]=t[j]</code>：<code>nextval[j]=nextval[next[j]]</code>，否则<code>nextval[j]=next[j]</code>。</li></ul><p>|i| 0| 1| 2| 3| 4| 5 |6| |–| | t | a| b| c| a| b| a |a| |next[j] | -1| 0 |0 |0 |1 |2 |1| |nextval[j] | -1| 0 |0 |-1 |0 |2 |1|</p><p>在上面的表格中，<code>t[next[4]]=t[4]=b</code>，所以<code>nextval[4]=nextval[next[4]]=0</code></p><h1 id="查找算法"><a href="#查找算法" class="headerlink" title="查找算法"></a>查找算法</h1><h2 id="ASL"><a href="#ASL" class="headerlink" title="ASL"></a>ASL</h2><p>由于查找算法的主要运算是关键字的比较，所以通常把查找过程中对关键字的平均比较次数（平均查找长度）作为衡量一个查找算法效率的标准。<code>ASL= ∑(n,i=1) Pi*Ci</code>，其中<code>n</code>为元素个数，<code>Pi</code>是查找第<code>i</code>个元素的概率，一般为<code>Pi=1/n</code>，<code>Ci</code>是找到第<code>i</code>个元素所需比较的次数。</p><h2 id="顺序查找"><a href="#顺序查找" class="headerlink" title="顺序查找"></a>顺序查找</h2><p>原理是让关键字与队列中的数从最后一个开始逐个比较，直到找出与给定关键字相同的数为止，它的缺点是效率低下。<strong>时间复杂度o(n)</strong>。</p><h2 id="折半查找"><a href="#折半查找" class="headerlink" title="折半查找"></a>折半查找</h2><p><strong>折半查找要求线性表是有序表</strong>。搜索过程从数组的中间元素开始，如果中间元素正好是要查找的元素，则搜索过程结束；如果某一特定元素大于或者小于中间元素，则在数组大于或小于中间元素的那一半中查找，而且跟开始一样从中间元素开始比较。如果在某一步骤数组为空，则代表找不到。这种搜索算法每一次比较都使搜索范围缩小一半。<strong>折半搜索每次把搜索区域减少一半，时间复杂度为O(log n)。</strong></p><ul><li><strong>可以借助二叉判定树求得折半查找的平均查找长度</strong>：<code>log2(n+1)-1</code>。</li><li>折半查找在失败时所需比较的关键字个数不超过判定树的深度，n个元素的判定树的深度和n个元素的完全二叉树的深度相同<code>log2(n)+1</code>。</li></ul><pre><code>public int binarySearchStandard(int[] num, int target){
+    int start = 0;
+    int end = num.length - 1;
+    while(start &lt;= end){ //注意1
+        int mid = start + ((end - start) &gt;&gt; 1);
+        if(num[mid] == target)
+            return mid;
+        else if(num[mid] &gt; target){
+            end = mid - 1; //注意2
+        }
+        else{
+            start = mid + 1; //注意3
+        }
+    }
+    return -1;
+}</code></pre><ul><li>如果是start &lt; end，那么当target等于num[num.length-1]时，会找不到该值。</li><li>因为num[mid] &gt; target, 所以如果有num[index] == target, index一定小于mid，能不能写成end = mid呢？举例来说：num = {1, 2, 5, 7, 9}; 如果写成end = mid，当循环到start = 0, end = 0时（即num[start] = 1, num[end] = 1时），mid将永远等于0，此时end也将永远等于0，陷入死循环。也就是说寻找target = -2时，程序将死循环。</li><li>因为num[mid] &lt; target, 所以如果有num[index] == target, index一定大于mid，能不能写成start = mid呢？举例来说：num = {1, 2, 5, 7, 9}; 如果写成start = mid，当循环到start = 3, end = 4时（即num[start] = 7, num[end] = 9时），mid将永远等于3，此时start也将永远等于3，陷入死循环。也就是说寻找target = 9时，程序将死循环。</li></ul><h2 id="分块查找"><a href="#分块查找" class="headerlink" title="分块查找"></a>分块查找</h2><p>分块查找又称索引顺序查找，它是一种性能介于顺序查找和折半查找之间的查找方法。<strong>分块查找由于只要求索引表是有序的，对块内节点没有排序要求，因此特别适合于节点动态变化的情况</strong>。</p><h1 id="排序算法"><a href="#排序算法" class="headerlink" title="排序算法"></a>排序算法</h1><h2 id="常见排序算法"><a href="#常见排序算法" class="headerlink" title="常见排序算法"></a>常见排序算法</h2><h3 id="稳定排序："><a href="#稳定排序：" class="headerlink" title="稳定排序："></a>稳定排序：</h3><ul><li><code>冒泡排序</code> — O(n²)</li><li><code>插入排序</code> — O(n²)</li><li><code>桶排序</code> — O(n); 需要 O(k) 额外空间</li><li><code>归并排序</code> — O(nlogn); 需要 O(n) 额外空间</li><li><code>二叉排序树排序</code> — O(n log n) 期望时间; O(n²)最坏时间; 需要 O(n) 额外空间</li><li><code>基数排序</code> — O(n·k); 需要 O(n) 额外空间</li></ul><h3 id="不稳定排序"><a href="#不稳定排序" class="headerlink" title="不稳定排序"></a>不稳定排序</h3><ul><li><code>选择排序</code> — O(n²)</li><li><code>希尔排序</code> — O(nlogn)</li><li><code>堆排序</code> — O(nlogn)</li><li><code>快速排序</code> — O(nlogn) 期望时间, O(n²) 最坏情况; 对于大的、乱数串行一般相信是最快的已知排序</li></ul><h2 id="交换排序"><a href="#交换排序" class="headerlink" title="交换排序"></a>交换排序</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。<strong>冒泡排序总的平均时间复杂度为O(n^2)。冒泡排序是一种稳定排序算法。</strong></p><ul><li>比较相邻的元素。如果第一个比第二个大，就交换他们两个。</li><li>对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。</li><li>针对所有的元素重复以上的步骤，除了最后一个。</li><li>持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。</li></ul><pre><code class="c++">void bubble_sort(int a[], int n)
+{
+    int i, j, temp;
+    for (j = 0; j &lt; n - 1; j++)
+        for (i = 0; i &lt; n - 1 - j; i++)
+        {
+            if(a[i] &gt; a[i + 1])
+            {
+                temp = a[i];
+                a[i] = a[i + 1];
+                a[i + 1] = temp;
+            }
+        }
+}</code></pre><h3 id="快速排序-快速排序-百度百科"><a href="#快速排序-快速排序-百度百科" class="headerlink" title="快速排序 快速排序-百度百科"></a>快速排序 <a href="http://baike.baidu.com/link?url=hyQPClbJy1SYY4esOZe9kANDIDxOrKxiSfq0HZl8c5eut40dZS-fd1V0jubijSv7RAogwy6HaQ-B1HbRgHf1hq" target="_blank" rel="noopener">快速排序-百度百科</a></h3><p>快速排序是一种 <strong>不稳定</strong> 的排序算法，平均时间复杂度为 <strong>O(nlogn)</strong>。<strong>快速排序使用分治法（Divide and conquer）策略来把一个序列（list）分为两个子序列（sub-lists）。</strong> 步骤为：</p><ul><li>从数列中挑出一个元素，称为”基准”（pivot），</li><li>重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区结束之后，该基准就处于数列的中间位置。这个称为分区（partition）操作。</li><li>递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。</li></ul><blockquote><p>快排的时间花费主要在划分上，所以</p><ul><li>最坏情况：时间复杂度为<code>O(n^2)</code>。因为最坏情况发生在每次划分过程产生的两个区间分别包含<code>n-1</code>个元素和<code>1</code>个元素的时候。</li><li>最好情况：每次划分选取的基准都是当前无序区的中值。如果每次划分过程产生的区间大小都为n/2，则快速排序法运行就快得多了。</li></ul></blockquote><pre><code class="java">public void sort(int[] arr, int low, int high) {
+    int l = low;
+    int h = high;
+    int povit = arr[low];
+    while (l &lt; h) {
+        while (l &lt; h &amp;&amp; arr[h] &gt;= povit)
+            h--;
+        if (l &lt; h) {
+            arr[l] = arr[h];
+            l++;
+        }
+        while (l &lt; h &amp;&amp; arr[l] &lt;= povit)
+            l++;
+        if (l &lt; h) {
+            arr[h] = arr[l];
+            h--;
+        }
+    }
+
+    arr[l] = povit;
+
+    System.out.print(&quot;l=&quot; + (l + 1) + &quot;;h=&quot; + (h + 1) + &quot;;povit=&quot; + povit + &quot;\n&quot;);
+    System.out.println(Arrays.toString(arr));
+    if (l - 1 &gt; low) sort(arr, low, l - 1);
+    if (h + 1 &lt; high) sort(arr, h + 1, high);
+}</code></pre><h4 id="快排的优化"><a href="#快排的优化" class="headerlink" title="快排的优化"></a>快排的优化</h4><ol><li>当待排序序列的长度分割到一定大小后，使用插入排序。</li><li>快排函数在函数尾部有两次递归操作，我们可以对其使用尾递归优化。优化后，可以缩减堆栈深度，由原来的O(n)缩减为O(logn)，将会提高性能。</li><li>从左、中、右三个数中取中间值。</li></ol><h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><p>插入排序的基本操作就是将一个数据插入到已经排好序的有序数据中，从而得到一个新的、个数加一的有序数据，算法适用于少量数据的排序，<strong>时间复杂度为O(n^2)。是稳定的排序方法。</strong> <strong>插入算法把要排序的数组分成两部分</strong>：第一部分包含了这个数组的所有元素，但将最后一个元素除外（让数组多一个空间才有插入的位置），而第二部分就只包含这一个元素（即待插入元素）。在第一部分排序完成后，再将这个最后元素插入到已排好序的第一部分中。</p><pre><code class="c++">void insert_sort(int* a, int len) {
+    for (int i = 1; i &lt; len; ++i) {
+        int j = i - 1;
+        int temp = a[i];
+        while (j &gt;= 0 &amp;&amp; temp &lt; a[j]) {
+            a[j + 1] = a[j];
+            j--;
+        }
+        a[j + 1] = temp;
+    }
+}</code></pre><h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a><a href="https://zh.wikipedia.org/wiki/希尔排序" target="_blank" rel="noopener">希尔排序</a></h3><p>也称缩小增量排序，是直接插入排序算法的一种更高效的改进版本。<strong>希尔排序是非稳定排序算法。</strong></p><p>希尔排序是把记录按下标的一定增量分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的关键词越来越多，当增量减至1时，整个文件恰被分成一组，算法便终止。</p><pre><code class="c++">void shell_sort(int* a, int len) {
+    int step = len / 2;
+    int temp;
+
+    while (step &gt; 0) {
+        for (int i = step; i &lt; len; ++i) {
+            temp = a[i];
+            int j = i - step;
+            while (j &gt;= 0 &amp;&amp; temp &lt; a[j]) {
+                a[j + step] = a[j];
+                j -= step;
+            }
+            a[j + step] = temp;
+        }
+        step /= 2;
+    }
+}</code></pre><h2 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h2><h3 id="直接选择排序"><a href="#直接选择排序" class="headerlink" title="直接选择排序"></a>直接选择排序</h3><p>首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。<strong>实际适用的场合非常罕见。</strong></p><pre><code class="c++">void selection_sort(int arr[], int len) {
+    int i, j, min, temp;
+    for (i = 0; i &lt; len - 1; i++) {
+        min = i;
+        for (j = i + 1; j &lt; len; j++)
+            if (arr[min] &gt; arr[j])
+                min = j;
+           temp = arr[min];
+        arr[min] = arr[i];
+        arr[i] = temp;
+    }
+}</code></pre><h3 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h3><p>堆排序利用了大根堆（或小根堆）堆顶记录的关键字最大（或最小）这一特征，使得在当前无序区中选取最大（或最小）关键字的记录变得简单。</p><ol><li>将数组分为有序区和无序区，在无序区中建立最大堆</li><li>将堆顶的数据与无序区末尾的数据交换</li><li>从后往前，直到所有数据排序完成</li></ol><pre><code class="java">public void heapSort(int[] nums) {
+    for (int i = nums.length - 1; i &gt;= 0; i--) {
+        maxHeap(nums, 0, i);
+
+        swap(nums, 0, i);
+    }
+}
+
+public void maxHeap(int[] heap, int start, int end) {
+    if (start == end) {
+        return;
+    }
+
+    int parent = start;
+    int childLeft = start * 2 + 1;
+    int childRight = childLeft + 1;
+
+    if (childLeft &lt;= end) {
+        maxHeap(heap, childLeft, end);
+
+        if (heap[childLeft] &gt; heap[parent]) {
+            swap(heap, parent, childLeft);
+        }
+    }
+
+    if (childRight &lt;= end) {
+        maxHeap(heap, childRight, end);
+
+        if (heap[childRight] &gt; heap[parent]) {
+            swap(heap, parent, childRight);
+        }
+    }
+}
+
+private void swap(int[] nums, int a, int b) {
+    int t = nums[a];
+    nums[a] = nums[b];
+    nums[b] = t;
+}</code></pre><h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><p>归并排序采用分治的思想：</p><ul><li>Divide：将n个元素平均划分为各含n/2个元素的子序列；</li><li>Conquer：递归的解决俩个规模为n/2的子问题；</li><li>Combine：合并俩个已排序的子序列。</li></ul><p>性能：时间复杂度总是为O(NlogN)，空间复杂度也总为为O(N)，算法与初始序列无关，排序是稳定的。</p><pre><code class="java">public void mergeSort(int[] array, int start, int end, int[] temp) {
+    if (start &gt;= end) {
+        return;
+    }
+
+    int mid = (start + end) / 2;
+
+    mergeSort(array, start, mid, temp);
+    mergeSort(array, mid + 1, end, temp);
+
+    int f = start, s = mid + 1;
+    int t = 0;
+    while (f &lt;= mid &amp;&amp; s &lt;= end) {
+        if (array[f] &lt; array[s]) {
+            temp[t++] = array[f++];
+        } else {
+            temp[t++] = array[s++];
+        }
+    }
+
+    while (f &lt;= mid) {
+        temp[t++] = array[f++];
+    }
+
+    while (s &lt;= end) {
+        temp[t++] = array[s++];
+    }
+
+    for (int i = 0, j = start; i &lt; t; i++) {
+        array[j++] = temp[i];
+    }
+}</code></pre><h2 id="桶排序"><a href="#桶排序" class="headerlink" title="桶排序"></a>桶排序</h2><p>桶排序工作的原理是将 <strong>数组分到有限数量的桶</strong> 里。每个桶再个别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排序）。当要被排序的数组内的数值是均匀分配的时候，桶排序使用线性时间 O(n)<em>O</em>(<em>n</em>) 。由于桶排序不是比较排序，他不受到 O(n\log n)<em>O</em>(<em>n</em>log<em>n</em>) 下限的影响。</p><p>桶排序以下列程序进行：</p><ul><li>设置一个定量的数组当作空桶子。</li><li>寻访序列，并且把项目一个一个放到对应的桶子去。</li><li>对每个不是空的桶子进行排序。</li><li>从不是空的桶子里把项目再放回原来的序列中。</li></ul><pre><code class="java">private int indexFor(int a, int min, int step) {
+    return (a - min) / step;
+}
+
+public void bucketSort(int[] arr) {
+    int max = arr[0], min = arr[0];
+    for (int a : arr) {
+        if (max &lt; a)
+            max = a;
+        if (min &gt; a)
+            min = a;
+    }
+    // 该值可根据实际情况选择
+    int bucketNum = max / 10 - min / 10 + 1;
+    List buckList = new ArrayList&lt;List&lt;Integer&gt;&gt;();
+    // create bucket
+    for (int i = 1; i &lt;= bucketNum; i++) {
+        buckList.add(new ArrayList&lt;Integer&gt;());
+    }
+    // push into the bucket
+    for (int i = 0; i &lt; arr.length; i++) {
+        int index = indexFor(arr[i], min, 10);
+        ((ArrayList&lt;Integer&gt;) buckList.get(index)).add(arr[i]);
+    }
+    ArrayList&lt;Integer&gt; bucket = null;
+    int index = 0;
+    for (int i = 0; i &lt; bucketNum; i++) {
+        bucket = (ArrayList&lt;Integer&gt;) buckList.get(i);
+        insertSort(bucket);
+        for (int k : bucket) {
+            arr[index++] = k;
+        }
+    }
+}
+
+// 把桶內元素插入排序
+private void insertSort(List&lt;Integer&gt; bucket) {
+    for (int i = 1; i &lt; bucket.size(); i++) {
+        int temp = bucket.get(i);
+        int j = i - 1;
+        for (; j &gt;= 0 &amp;&amp; bucket.get(j) &gt; temp; j--) {
+            bucket.set(j + 1, bucket.get(j));
+        }
+        bucket.set(j + 1, temp);
+    }
+}</code></pre><h2 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h2><p>对于有d个关键字时，可以分别按关键字进行排序。有俩种方法：</p><ul><li>MSD：先从高位开始进行排序，在每个关键字上，可采用基数排序</li><li>LSD：先从低位开始进行排序，在每个关键字上，可采用桶排序</li></ul><blockquote><p>即通过每个数的每位数字的大小来比较</p></blockquote><pre><code class="java">//找出最大数字的位数
+int maxNum(int arr[], int len) {
+    int _max = 0;
+
+    for (int i = 0; i &lt; len; ++i) {
+        int d = 0;
+        int a = arr[i];
+
+        while (a) {
+            a /= 10;
+            d++;
+        }
+
+        if (_max &lt; d) {
+            _max = d;
+        }
+    }
+    return _max;
+}
+
+
+void radixSort(int *arr, int len) {
+    int d = maxNum(arr, len);
+    int *temp = new int[len];
+    int count[10];
+    int radix = 1;
+
+    for (int i = 0; i &lt; d; ++i) {
+        for (int j = 0; j &lt; 10; ++j) {
+            count[j] = 0;
+        }
+
+        for (int k = 0; k &lt; len; ++k) {
+            count[(arr[k] / radix) % 10]++;
+        }
+
+        for (int l = 1; l &lt; 10; ++l) {
+            count[l] += count[l - 1];
+        }
+
+        for (int m = 0; m &lt; len; ++m) {
+            int index = (arr[m] / radix) % 10;
+            temp[count[index] - 1] = arr[m];
+            count[index]--;
+        }
+
+        for (int n = 0; n &lt; len; ++n) {
+            arr[n] = temp[n];
+        }
+        radix *= 10;
+
+    }
+
+    delete (temp);
+}</code></pre><h2 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h2><p>在有向图中找拓扑序列的过程，就是拓扑排序。<strong>拓扑序列常常用于判定图是否有环</strong>。</p><ul><li>从有向图中选择一个入度为0的结点，输出它。</li><li>将这个结点以及该结点出发的所有边从图中删除。</li><li>重复前两步，直到没有入度为0的点。</li></ul><blockquote><p>如果所有点都被输出，即存在一个拓扑序列，则图没有环。</p></blockquote><h1 id="跳跃表"><a href="#跳跃表" class="headerlink" title="跳跃表"></a>跳跃表</h1><p>跳跃列表是一种数据结构。它允许快速查询一个有序连续元素的数据链表。跳跃列表的平均查找和插入时间复杂度都是 <code>O(log n)</code> ，优于普通队列的 <code>O(n)</code>。</p><p>快速查询是通过维护一个多层次的链表，且每一层链表中的元素是前一层链表元素的子集。一开始时，算法在最稀疏的层次进行搜索，直至需要查找的元素在该层两个相邻的元素中间。这时，算法将跳转到下一个层次，重复刚才的搜索，直到找到需要查找的元素为止。跳过的元素的方法可以是 <strong>随机性选择</strong> 或 <strong>确定性选择</strong>，其中前者更为常见。</p><p><img src="https://hadyang.github.io/interview/docs/basic/algo/skip_list/images/9d89be415d4f099d1eb4042af706f278.png" alt="img"></p><p>在查找目标元素时，从顶层列表、头元素起步。算法沿着每层链表搜索，直至找到一个大于或等于目标的元素，或者到达当前层列表末尾。如果该元素等于目标元素，则表明该元素已被找到；如果该元素大于目标元素或已到达链表末尾，则退回到当前层的上一个元素，然后转入下一层进行搜索。</p><p>跳跃列表不像平衡树等数据结构那样提供对最坏情况的性能保证：由于用来建造跳跃列表采用随机选取元素进入更高层的方法，在小概率情况下会生成一个不平衡的跳跃列表（<strong>最坏情况例如最底层仅有一个元素进入了更高层，此时跳跃列表的查找与普通列表一致</strong>）。但是在实际中它通常工作良好，<strong>随机化平衡方案也比平衡二叉查找树等数据结构中使用的确定性平衡方案容易实现</strong>。跳跃列表在并行计算中也很有用：插入可以在跳跃列表不同的部分并行地进行，而不用对数据结构进行全局的重新平衡。</p><p>跳跃表插入一个元素：</p><p><img src="https://hadyang.github.io/interview/docs/basic/algo/skip_list/images/e3ccf6537c3a42f6c6f1e8d7e26ba0ed.png" alt="img"></p><h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>因为跳跃列表中的元素可以在多个列表中，所以每个元素可以有多于一个指针。跳跃列表的插入和删除的实现与普通的链表操作类似，但高层元素必须在进行多个链表中进行插入或删除。</p><pre><code>package io.github.hadyang.leetcode.algo;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.Arrays;
+import java.util.Random;
+
+/**
+ * @author haoyang.shi
+ */
+public class SkipList&lt;K extends Comparable&lt;K&gt;, V&gt; {
+
+    @Getter
+    @Setter
+    static final class Node&lt;K extends Comparable&lt;K&gt;, V&gt; {
+        private K key;
+
+        private V value;
+
+        private Node&lt;K, V&gt; up, down, pre, next;
+
+        Node(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
+
+
+        @Override
+        public String toString() {
+            return &quot;Node{&quot; +
+                    &quot;key=&quot; + key +
+                    &quot;, value=&quot; + value +
+                    &quot;, hashcode=&quot; + hashCode() +
+                    &quot;, up=&quot; + (up == null ? &quot;null&quot; : up.hashCode()) +
+                    &quot;, down=&quot; + (down == null ? &quot;null&quot; : down.hashCode()) +
+                    &quot;, pre=&quot; + (pre == null ? &quot;null&quot; : pre.hashCode()) +
+                    &quot;, next=&quot; + (next == null ? &quot;null&quot; : next.hashCode()) +
+                    &#39;}&#39;;
+        }
+    }
+
+    private Node&lt;K, V&gt; head;//k,v都是NULL
+
+    private Integer levels = 0;
+
+    private Integer length = 0;
+
+    private Random random = new Random(System.currentTimeMillis());
+
+    public SkipList() {
+        createNewLevel();
+    }
+
+    public void put(K key, V value) {
+        if (key == null || value == null) {
+            return;
+        }
+
+        Node&lt;K, V&gt; newNode = new Node&lt;&gt;(key, value);
+        insertNode(newNode);
+    }
+
+    private void insertNode(Node&lt;K, V&gt; newNode) {
+        Node&lt;K, V&gt; curNode = findNode(newNode.getKey());
+        if (curNode.getKey() == null) {
+            insertNext(curNode, newNode);
+        } else if (curNode.getKey().compareTo(newNode.getKey()) == 0) {
+            //update
+            curNode.setValue(newNode.getValue());
+            return;
+        } else {
+            insertNext(curNode, newNode);
+        }
+
+        int currentLevel = 1;
+        Node&lt;K, V&gt; oldTop = newNode;
+        while (random.nextInt(100) &lt; 50) {
+            Node&lt;K, V&gt; newTop = new Node&lt;&gt;(newNode.getKey(), null);
+
+            if (currentLevel &gt;= levels) {
+                createNewLevel();
+            }
+
+            while (curNode.getPre() != null &amp;&amp; curNode.getUp() == null) {
+                curNode = curNode.getPre();
+            }
+
+            if (curNode.getUp() == null) {
+                continue;
+            }
+
+            curNode = curNode.getUp();
+            Node&lt;K, V&gt; curNodeNext = curNode.getNext();
+
+            curNode.setNext(newTop);
+            newTop.setPre(curNode);
+            newTop.setDown(oldTop);
+            oldTop.setUp(newTop);
+
+            newTop.setNext(curNodeNext);
+            oldTop = newTop;
+
+            currentLevel++;
+        }
+    }
+
+    private void createNewLevel() {
+        Node&lt;K, V&gt; newHead = new Node&lt;&gt;(null, null);
+        if (this.head == null) {
+            this.head = newHead;
+            this.levels++;
+            return;
+        }
+
+        this.head.setUp(newHead);
+        newHead.setDown(this.head);
+        this.head = newHead;
+        this.levels++;
+    }
+
+    private void insertNext(Node&lt;K, V&gt; curNode, Node&lt;K, V&gt; newNode) {
+        Node&lt;K, V&gt; curNodeNext = curNode.getNext();
+        newNode.setNext(curNodeNext);
+        if (curNodeNext != null) {
+            curNodeNext.setPre(newNode);
+        }
+        curNode.setNext(newNode);
+        newNode.setPre(curNode);
+
+        this.length++;
+    }
+
+    public V get(K key) {
+        Node&lt;K, V&gt; node = findNode(key);
+        if (key.equals(node.getKey())) {
+            return node.getValue();
+        }
+
+        return null;
+    }
+
+    private Node&lt;K, V&gt; findNode(K key) {
+        Node&lt;K, V&gt; curNode = this.head;
+
+        for (; ; ) {
+            while (curNode.getNext() != null &amp;&amp; curNode.getNext().getKey().compareTo(key) &lt;= 0) {
+                curNode = curNode.getNext();
+            }
+
+            if (curNode.getDown() != null) {
+                curNode = curNode.getDown();
+            } else {
+                break;
+            }
+        }
+
+        return curNode;
+    }
+
+    public void print() {
+        Node&lt;K, V&gt; curI = this.head;
+
+        String[][] strings = new String[levels][length + 1];
+        for (String[] string : strings) {
+            Arrays.fill(string, &quot;0&quot;);
+        }
+
+        while (curI.getDown() != null) {
+            curI = curI.getDown();
+        }
+
+        System.out.println(&quot;levels:&quot; + levels + &quot;_&quot; + &quot;length:&quot; + length);
+
+        int i = 0;
+        while (curI != null) {
+            Node&lt;K, V&gt; curJ = curI;
+
+            int j = levels - 1;
+            while (curJ != null) {
+                strings[j][i] = String.valueOf(curJ.getKey());
+
+                if (curJ.getUp() == null) {
+                    break;
+                }
+                curJ = curJ.getUp();
+                j--;
+            }
+
+            if (curI.getNext() == null) {
+                break;
+            }
+            curI = curI.getNext();
+            i++;
+        }
+
+        for (String[] string : strings) {
+            System.out.println(Arrays.toString(string));
+        }
+    }
+
+    public static void main(String[] args) {
+
+        SkipList&lt;Integer, String&gt; skipList = new SkipList&lt;&gt;();
+
+        skipList.put(2, &quot;B&quot;);
+        skipList.put(1, &quot;A&quot;);
+        skipList.put(3, &quot;C&quot;);
+
+        skipList.print();
+
+        System.out.println(skipList.get(2));
+
+    }</code></pre><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>【1】<a href="https://hadyang.github.io/interview/docs/basic/algo/" target="_blank" rel="noopener">https://hadyang.github.io/interview/docs/basic/algo/</a></p></div><hr><div class="reprint" id="reprint-statement"><div class="reprint__author"><span class="reprint-meta" style="font-weight:700"><i class="fas fa-user">文章作者:</i></span> <span class="reprint-info"><a href="https://github.com/hyl2048" rel="external nofollow noreferrer">yulin</a></span></div><div class="reprint__type"><span class="reprint-meta" style="font-weight:700"><i class="fas fa-link">文章链接:</i></span> <span class="reprint-info"><a href="https://github.com/hyl2048/51507.html">https://github.com/hyl2048/51507.html</a></span></div><div class="reprint__notice"><span class="reprint-meta" style="font-weight:700"><i class="fas fa-copyright">版权声明:</i></span> <span class="reprint-info">本博客所有文章除特別声明外，均采用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a> 许可协议。转载请注明来源 <a href="https://github.com/hyl2048" target="_blank">yulin</a> !</span></div></div><script async defer>document.addEventListener("copy", function (e) {
         let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
         M.toast({html: toastHTML})
       });
@@ -86,4 +588,4 @@
             fixPostCardWidth('artDetail', 'prenext-posts');
         });
         
-    });</script></main><script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script>MathJax.Hub.Config({tex2jax:{inlineMath:[["$","$"],["(",")"]]}})</script><footer class="page-footer bg-color"><link rel="stylesheet" href="/libs/aplayer/APlayer.min.css"><style>.aplayer .aplayer-lrc p{font-size:12px;font-weight:700;line-height:16px!important}.aplayer .aplayer-lrc p.aplayer-lrc-current{font-size:15px;color:#42b983}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style><div><div><meting-js class="col l8 offset-l2 m10 offset-m1 s12" server="netease" type="playlist" id="503838841" fixed="true" autoplay theme="#42b983" loop order="random" preload="auto" volume="0.7" list-folded="true"></meting-js></div></div><script src="/libs/aplayer/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script><div class="container row center-align"><div class="col s12 m8 l8 copy-right">&copy;huang. 版权所有 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp; <span class="white-color">56.7k</span><br><span id="sitetime"></span><br><span id="busuanzi_container_site_pv" style="display:none"><i class="fa fa-heart-o"></i> 本站总访问量<span id="busuanzi_value_site_pv" class="white-color"></span></span> <span id="busuanzi_container_site_uv" style="display:none">人次,&nbsp;访客数<span id="busuanzi_value_site_uv" class="white-color"></span> 人.</span></div><div class="col s12 m4 l4 social-link social-statis"><a href="https://github.com/hyl2048" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50"><i class="fab fa-github"></i></a><a href="mailto:qhuang724@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50"><i class="fas fa-envelope-open"></i></a><a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2745506937" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2745506937" data-position="top" data-delay="50"><i class="fab fa-qq"></i></a><a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50"><i class="fas fa-rss"></i></a></div></div></footer><div class="progress-bar"></div><script>$(document).ready(function(){var e=setInterval(function(){"none"!=document.getElementById("busuanzi_container_site_pv").style.display&&($("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html())+n),clearInterval(e));"none"!=$("#busuanzi_container_site_pv").css("display")&&($("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html())+t),clearInterval(e))},50),n=0,t=0})</script><script language="javascript">function siteTime(){window.setTimeout("siteTime()",1e3);var e=36e5,t=24*e,o=new Date,i=o.getFullYear(),a=o.getMonth()+1,n=o.getDate(),r=o.getHours(),l=o.getMinutes(),s=o.getSeconds(),M=Date.UTC(2020,3,28,0,0,0),g=Date.UTC(i,a,n,r,l,s)-M,m=Math.floor(g/31536e6),T=Math.floor(g/t-365*m),f=Math.floor((g-(365*m+T)*t)/e),h=Math.floor((g-(365*m+T)*t-f*e)/6e4),u=Math.floor((g-(365*m+T)*t-f*e-6e4*h)/1e3);document.getElementById("sitetime").innerHTML="本站已运行 "+m+" 年 "+T+" 天 "+f+" 小时 "+h+" 分钟 "+u+" 秒"}siteTime()</script><div id="searchModal" class="modal"><div class="modal-content"><div class="search-header"><span class="title"><i class="fas fa-search"></i> &nbsp;&nbsp;搜索</span> <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input"></div><div id="searchResult"></div></div></div><script src="/js/search.js"></script><script>$(function(){searchFunc("/search.xml","searchInput","searchResult")})</script><div id="backTop" class="top-scroll"><a class="btn-floating btn-large waves-effect waves-light" href="#!"><i class="fas fa-arrow-up"></i></a></div><script src="/libs/materialize/materialize.min.js"></script><script src="/libs/masonry/masonry.pkgd.min.js"></script><script src="/libs/aos/aos.js"></script><script src="/libs/scrollprogress/scrollProgress.min.js"></script><script src="/libs/lightGallery/js/lightgallery-all.min.js"></script><script src="/js/matery.js"></script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(){var t=document.createElement("script"),e=window.location.protocol.split(":")[0];t.src="https"===e?"https://zz.bdstatic.com/linksubmit/push.js":"http://push.zhanzhang.baidu.com/push.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}()</script><script src="/libs/others/clicklove.js" async></script><script async src="/libs/others/busuanzi.pure.mini.js"></script><script src="/libs/instantpage/instantpage.js" type="module"></script></body></html>
+    });</script></main><script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script>MathJax.Hub.Config({tex2jax:{inlineMath:[["$","$"],["(",")"]]}})</script><footer class="page-footer bg-color"><link rel="stylesheet" href="/libs/aplayer/APlayer.min.css"><style>.aplayer .aplayer-lrc p{font-size:12px;font-weight:700;line-height:16px!important}.aplayer .aplayer-lrc p.aplayer-lrc-current{font-size:15px;color:#42b983}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style><div><div><meting-js class="col l8 offset-l2 m10 offset-m1 s12" server="netease" type="playlist" id="503838841" fixed="true" autoplay theme="#42b983" loop order="random" preload="auto" volume="0.7" list-folded="true"></meting-js></div></div><script src="/libs/aplayer/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script><div class="container row center-align"><div class="col s12 m8 l8 copy-right">&copy;huang. 版权所有 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp; <span class="white-color">67k</span><br><span id="sitetime"></span><br><span id="busuanzi_container_site_pv" style="display:none"><i class="fa fa-heart-o"></i> 本站总访问量<span id="busuanzi_value_site_pv" class="white-color"></span></span> <span id="busuanzi_container_site_uv" style="display:none">人次,&nbsp;访客数<span id="busuanzi_value_site_uv" class="white-color"></span> 人.</span></div><div class="col s12 m4 l4 social-link social-statis"><a href="https://github.com/hyl2048" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50"><i class="fab fa-github"></i></a><a href="mailto:qhuang724@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50"><i class="fas fa-envelope-open"></i></a><a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2745506937" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2745506937" data-position="top" data-delay="50"><i class="fab fa-qq"></i></a><a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50"><i class="fas fa-rss"></i></a></div></div></footer><div class="progress-bar"></div><script>$(document).ready(function(){var e=setInterval(function(){"none"!=document.getElementById("busuanzi_container_site_pv").style.display&&($("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html())+n),clearInterval(e));"none"!=$("#busuanzi_container_site_pv").css("display")&&($("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html())+t),clearInterval(e))},50),n=0,t=0})</script><script language="javascript">function siteTime(){window.setTimeout("siteTime()",1e3);var e=36e5,t=24*e,o=new Date,i=o.getFullYear(),a=o.getMonth()+1,n=o.getDate(),r=o.getHours(),l=o.getMinutes(),s=o.getSeconds(),M=Date.UTC(2020,3,28,0,0,0),g=Date.UTC(i,a,n,r,l,s)-M,m=Math.floor(g/31536e6),T=Math.floor(g/t-365*m),f=Math.floor((g-(365*m+T)*t)/e),h=Math.floor((g-(365*m+T)*t-f*e)/6e4),u=Math.floor((g-(365*m+T)*t-f*e-6e4*h)/1e3);document.getElementById("sitetime").innerHTML="本站已运行 "+m+" 年 "+T+" 天 "+f+" 小时 "+h+" 分钟 "+u+" 秒"}siteTime()</script><div id="searchModal" class="modal"><div class="modal-content"><div class="search-header"><span class="title"><i class="fas fa-search"></i> &nbsp;&nbsp;搜索</span> <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input"></div><div id="searchResult"></div></div></div><script src="/js/search.js"></script><script>$(function(){searchFunc("/search.xml","searchInput","searchResult")})</script><div id="backTop" class="top-scroll"><a class="btn-floating btn-large waves-effect waves-light" href="#!"><i class="fas fa-arrow-up"></i></a></div><script src="/libs/materialize/materialize.min.js"></script><script src="/libs/masonry/masonry.pkgd.min.js"></script><script src="/libs/aos/aos.js"></script><script src="/libs/scrollprogress/scrollProgress.min.js"></script><script src="/libs/lightGallery/js/lightgallery-all.min.js"></script><script src="/js/matery.js"></script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(){var t=document.createElement("script"),e=window.location.protocol.split(":")[0];t.src="https"===e?"https://zz.bdstatic.com/linksubmit/push.js":"http://push.zhanzhang.baidu.com/push.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}()</script><script src="/libs/others/clicklove.js" async></script><script async src="/libs/others/busuanzi.pure.mini.js"></script><script src="/libs/instantpage/instantpage.js" type="module"></script></body></html>
