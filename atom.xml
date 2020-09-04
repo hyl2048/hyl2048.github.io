@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-09-03T16:10:08.925Z</updated>
+  <updated>2020-09-04T14:55:30.325Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MQ</title>
+    <link href="https://github.com/hyl2048/44276.html"/>
+    <id>https://github.com/hyl2048/44276.html</id>
+    <published>2020-09-04T14:55:30.000Z</published>
+    <updated>2020-09-04T14:55:30.325Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Dubbo</title>
+    <link href="https://github.com/hyl2048/37154.html"/>
+    <id>https://github.com/hyl2048/37154.html</id>
+    <published>2020-09-04T14:55:00.000Z</published>
+    <updated>2020-09-04T14:55:00.900Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>分布式</title>
     <link href="https://github.com/hyl2048/41895.html"/>
     <id>https://github.com/hyl2048/41895.html</id>
     <published>2020-09-03T16:10:08.000Z</published>
-    <updated>2020-09-03T16:10:08.925Z</updated>
+    <updated>2020-09-03T16:18:45.670Z</updated>
     
     <summary type="html">
     
@@ -36,7 +66,7 @@
     <link href="https://github.com/hyl2048/18155.html"/>
     <id>https://github.com/hyl2048/18155.html</id>
     <published>2020-09-03T03:00:51.000Z</published>
-    <updated>2020-09-03T03:00:51.864Z</updated>
+    <updated>2020-09-03T16:18:45.609Z</updated>
     
     <summary type="html">
     
@@ -381,56 +411,6 @@
     
     </summary>
     
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Transfer Learning</title>
-    <link href="https://github.com/hyl2048/8787.html"/>
-    <id>https://github.com/hyl2048/8787.html</id>
-    <published>2020-04-14T02:37:46.000Z</published>
-    <updated>2020-07-05T15:04:03.842Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;跨领域情感分析&quot;&gt;&lt;a href=&quot;#跨领域情感分析&quot; class=&quot;headerlink&quot; title=&quot;跨领域情感分析&quot;&gt;&lt;/a&gt;跨领域情感分析&lt;/h1&gt;&lt;h2 id=&quot;综述&quot;&gt;&lt;a href=&quot;#综述&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="NLP" scheme="https://github.com/hyl2048/categories/NLP/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Bugs</title>
-    <link href="https://github.com/hyl2048/30574.html"/>
-    <id>https://github.com/hyl2048/30574.html</id>
-    <published>2020-04-14T02:20:40.000Z</published>
-    <updated>2020-05-03T02:59:43.614Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h1&gt;&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Bugs" scheme="https://github.com/hyl2048/categories/Bugs/"/>
     
     
   </entry>
