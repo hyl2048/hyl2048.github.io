@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-09-06T03:11:54.765Z</updated>
+  <updated>2020-09-06T03:28:49.838Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机组成原理</title>
+    <link href="https://github.com/hyl2048/51917.html"/>
+    <id>https://github.com/hyl2048/51917.html</id>
+    <published>2020-09-06T03:28:49.000Z</published>
+    <updated>2020-09-06T03:28:49.838Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>编译原理</title>
+    <link href="https://github.com/hyl2048/39825.html"/>
+    <id>https://github.com/hyl2048/39825.html</id>
+    <published>2020-09-06T03:28:22.000Z</published>
+    <updated>2020-09-06T03:28:22.964Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>UML</title>
@@ -327,52 +357,6 @@
 &lt;p&gt;​        ① 
         
       
-    
-    </summary>
-    
-    
-      <category term="Basic" scheme="https://github.com/hyl2048/categories/Basic/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>程序员面试金典-6-Ch</title>
-    <link href="https://github.com/hyl2048/41175.html"/>
-    <id>https://github.com/hyl2048/41175.html</id>
-    <published>2020-08-19T13:00:02.000Z</published>
-    <updated>2020-08-19T13:42:35.726Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;行为面试题&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;常见问题&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;项目 1&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;项目
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>设计模式</title>
-    <link href="https://github.com/hyl2048/41682.html"/>
-    <id>https://github.com/hyl2048/41682.html</id>
-    <published>2020-07-25T03:02:00.000Z</published>
-    <updated>2020-09-06T03:25:19.793Z</updated>
-    
-    <summary type="html">
     
     </summary>
     
