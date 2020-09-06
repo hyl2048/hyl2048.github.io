@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-09-06T01:59:25.744Z</updated>
+  <updated>2020-09-06T03:01:35.185Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>UML</title>
+    <link href="https://github.com/hyl2048/46372.html"/>
+    <id>https://github.com/hyl2048/46372.html</id>
+    <published>2020-09-06T03:01:35.000Z</published>
+    <updated>2020-09-06T03:01:35.185Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Git</title>
     <link href="https://github.com/hyl2048/25246.html"/>
     <id>https://github.com/hyl2048/25246.html</id>
     <published>2020-09-06T01:59:25.000Z</published>
-    <updated>2020-09-06T01:59:25.744Z</updated>
+    <updated>2020-09-06T02:15:53.757Z</updated>
     
     <summary type="html">
     
@@ -293,7 +308,7 @@
     <link href="https://github.com/hyl2048/28758.html"/>
     <id>https://github.com/hyl2048/28758.html</id>
     <published>2020-08-19T14:38:04.000Z</published>
-    <updated>2020-09-06T02:10:41.064Z</updated>
+    <updated>2020-09-06T03:11:39.675Z</updated>
     
     <summary type="html">
     
@@ -309,6 +324,8 @@
     
     </summary>
     
+    
+      <category term="Basic" scheme="https://github.com/hyl2048/categories/Basic/"/>
     
     
   </entry>
@@ -350,30 +367,6 @@
     <updated>2020-07-25T09:45:57.400Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>On Java 8</title>
-    <link href="https://github.com/hyl2048/29494.html"/>
-    <id>https://github.com/hyl2048/29494.html</id>
-    <published>2020-07-24T13:58:51.000Z</published>
-    <updated>2020-08-12T06:54:34.772Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;万物皆对象&quot;&gt;&lt;a href=&quot;#万物皆对象&quot; class=&quot;headerlink&quot; title=&quot;万物皆对象&quot;&gt;&lt;/a&gt;万物皆对象&lt;/h2&gt;&lt;p&gt;​        把万物看作对象，对象之间在传递信息。&lt;/p&gt;
-&lt;p&gt;​       
-        
-      
     
     </summary>
     
