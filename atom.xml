@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-09-06T03:29:03.945Z</updated>
+  <updated>2020-09-06T07:06:20.529Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>编码规范</title>
+    <link href="https://github.com/hyl2048/5411.html"/>
+    <id>https://github.com/hyl2048/5411.html</id>
+    <published>2020-09-06T07:06:20.000Z</published>
+    <updated>2020-09-06T07:06:20.529Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>计算机组成原理</title>
@@ -354,33 +369,6 @@
         
         
           &lt;h2 id=&quot;计算机系统概述&quot;&gt;&lt;a href=&quot;#计算机系统概述&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Basic" scheme="https://github.com/hyl2048/categories/Basic/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>计算机网络</title>
-    <link href="https://github.com/hyl2048/28758.html"/>
-    <id>https://github.com/hyl2048/28758.html</id>
-    <published>2020-08-19T14:38:04.000Z</published>
-    <updated>2020-09-06T03:11:39.675Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;计算机网络&lt;/p&gt;
-&lt;h2 id=&quot;概览&quot;&gt;&lt;a href=&quot;#概览&quot; class=&quot;headerlink&quot; title=&quot;概览&quot;&gt;&lt;/a&gt;概览&lt;/h2&gt;&lt;p&gt;​        完成端到端传输的工作，可简要分为三类工作&lt;/p&gt;
-&lt;p&gt;​        ① 
         
       
     
