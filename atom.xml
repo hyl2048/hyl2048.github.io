@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-09-09T13:35:54.588Z</updated>
+  <updated>2020-09-10T04:18:54.536Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Servlet</title>
+    <link href="https://github.com/hyl2048/55715.html"/>
+    <id>https://github.com/hyl2048/55715.html</id>
+    <published>2020-09-10T04:18:54.000Z</published>
+    <updated>2020-09-10T04:18:54.536Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>笔试题</title>
@@ -248,9 +263,17 @@
     <link href="https://github.com/hyl2048/18155.html"/>
     <id>https://github.com/hyl2048/18155.html</id>
     <published>2020-09-03T03:00:51.000Z</published>
-    <updated>2020-09-06T03:46:51.870Z</updated>
+    <updated>2020-09-12T03:36:09.840Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Spring-Framework&quot;&gt;&lt;a href=&quot;#Spring-Framework&quot; class=&quot;headerlink&quot; title=&quot;Spring Framework&quot;&gt;&lt;/a&gt;Spring Framework&lt;/h1&gt;&lt;h2
+        
+      
     
     </summary>
     
@@ -355,23 +378,6 @@
     
     
       <category term="Database" scheme="https://github.com/hyl2048/categories/Database/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Linux应用</title>
-    <link href="https://github.com/hyl2048/59742.html"/>
-    <id>https://github.com/hyl2048/59742.html</id>
-    <published>2020-08-19T14:39:42.000Z</published>
-    <updated>2020-09-06T03:50:33.803Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Basic" scheme="https://github.com/hyl2048/categories/Basic/"/>
     
     
   </entry>

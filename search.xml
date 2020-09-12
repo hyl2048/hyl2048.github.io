@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Servlet</title>
+      <link href="/55715.html"/>
+      <url>/55715.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>笔试题</title>
       <link href="/53879.html"/>
       <url>/53879.html</url>
@@ -225,7 +238,7 @@
       <link href="/18155.html"/>
       <url>/18155.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="Spring-Framework"><a href="#Spring-Framework" class="headerlink" title="Spring Framework"></a>Spring Framework</h1><h2 id="Spring-体系结构"><a href="#Spring-体系结构" class="headerlink" title="Spring 体系结构"></a>Spring 体系结构</h2><p><img src="C:%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200910144056583.png" alt="image-20200910144056583"></p><h2 id="IOC"><a href="#IOC" class="headerlink" title="IOC"></a>IOC</h2><p>什么是IOC容器</p><p>​        一个HashMap</p><p>如何创建IOC容器</p><p>IOC容器如何初始化Bean实例</p><h2 id="基于XML的IOC"><a href="#基于XML的IOC" class="headerlink" title="基于XML的IOC"></a>基于XML的IOC</h2><h2 id="基于XML的DI"><a href="#基于XML的DI" class="headerlink" title="基于XML的DI"></a>基于XML的DI</h2><h2 id="基于注解的IOC"><a href="#基于注解的IOC" class="headerlink" title="基于注解的IOC"></a>基于注解的IOC</h2><h2 id="Spring纯注解实现方式"><a href="#Spring纯注解实现方式" class="headerlink" title="Spring纯注解实现方式"></a>Spring纯注解实现方式</h2><h2 id="Spring-与Junit"><a href="#Spring-与Junit" class="headerlink" title="Spring 与Junit"></a>Spring 与Junit</h2><h2 id="Spring-分模块开发"><a href="#Spring-分模块开发" class="headerlink" title="Spring 分模块开发"></a>Spring 分模块开发</h2><h2 id="Spring-AOP-原理"><a href="#Spring-AOP-原理" class="headerlink" title="Spring AOP 原理"></a>Spring AOP 原理</h2><p>代理分为静态代理与动态代理，动态代理有JDK动态代理、CGLIB动态代理</p><h2 id="Spring-AOP基于XML和注解的实现"><a href="#Spring-AOP基于XML和注解的实现" class="headerlink" title="Spring AOP基于XML和注解的实现"></a>Spring AOP基于XML和注解的实现</h2><h2 id="Spring-应用-Spring-JDBC-实现"><a href="#Spring-应用-Spring-JDBC-实现" class="headerlink" title="Spring 应用-Spring JDBC 实现"></a>Spring 应用-Spring JDBC 实现</h2><h2 id="Spring-应用-JdbcDaoSupport"><a href="#Spring-应用-JdbcDaoSupport" class="headerlink" title="Spring 应用-JdbcDaoSupport"></a>Spring 应用-JdbcDaoSupport</h2><h2 id="Spring-应用-事务支持"><a href="#Spring-应用-事务支持" class="headerlink" title="Spring 应用-事务支持"></a>Spring 应用-事务支持</h2><h2 id="Spring-与-MyBatis"><a href="#Spring-与-MyBatis" class="headerlink" title="Spring 与 MyBatis"></a>Spring 与 MyBatis</h2><h2 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h2>]]></content>
       
       
       <categories>
