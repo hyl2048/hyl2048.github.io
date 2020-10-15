@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-09-12T03:37:56.965Z</updated>
+  <updated>2020-09-24T11:55:03.423Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring Boot</title>
+    <link href="https://github.com/hyl2048/10937.html"/>
+    <id>https://github.com/hyl2048/10937.html</id>
+    <published>2020-09-24T10:07:07.000Z</published>
+    <updated>2020-09-24T11:55:03.423Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;官网学习资料&quot;&gt;&lt;a href=&quot;#官网学习资料&quot; class=&quot;headerlink&quot; title=&quot;官网学习资料&quot;&gt;&lt;/a&gt;官网学习资料&lt;/h1&gt;&lt;p&gt;​    &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Servlet</title>
@@ -263,7 +286,7 @@
     <link href="https://github.com/hyl2048/18155.html"/>
     <id>https://github.com/hyl2048/18155.html</id>
     <published>2020-09-03T03:00:51.000Z</published>
-    <updated>2020-09-24T07:13:48.594Z</updated>
+    <updated>2020-09-24T09:51:02.487Z</updated>
     
     <summary type="html">
     
@@ -271,7 +294,7 @@
       
         
         
-          &lt;h1 id=&quot;Spring-Framework&quot;&gt;&lt;a href=&quot;#Spring-Framework&quot; class=&quot;headerlink&quot; title=&quot;Spring Framework&quot;&gt;&lt;/a&gt;Spring Framework&lt;/h1&gt;&lt;h2
+          &lt;h1 id=&quot;Spring-Framework&quot;&gt;&lt;a href=&quot;#Spring-Framework&quot; class=&quot;headerlink&quot; title=&quot;Spring Framework&quot;&gt;&lt;/a&gt;Spring Framework&lt;/h1&gt;&lt;h1 id=&quot;官方文档&quot;&gt;&lt;a
         
       
     
@@ -353,31 +376,6 @@
     
     
       <category term="Basic" scheme="https://github.com/hyl2048/categories/Basic/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Redis相关</title>
-    <link href="https://github.com/hyl2048/10595.html"/>
-    <id>https://github.com/hyl2048/10595.html</id>
-    <published>2020-08-19T14:42:00.000Z</published>
-    <updated>2020-09-06T03:47:59.092Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;线程模型&quot;&gt;&lt;a href=&quot;#线程模型&quot; class=&quot;headerlink&quot; title=&quot;线程模型&quot;&gt;&lt;/a&gt;线程模型&lt;/h2&gt;&lt;p&gt;Redis 在处理网络请求是使用单线程模型，并通过 IO
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Database" scheme="https://github.com/hyl2048/categories/Database/"/>
     
     
   </entry>
