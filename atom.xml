@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-10-28T13:35:16.425Z</updated>
+  <updated>2020-10-28T13:42:11.856Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,13 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>离散数学</title>
+    <link href="https://github.com/hyl2048/46708.html"/>
+    <id>https://github.com/hyl2048/46708.html</id>
+    <published>2020-10-28T13:42:11.000Z</published>
+    <updated>2020-10-28T13:42:11.856Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机体系结构</title>
+    <link href="https://github.com/hyl2048/60393.html"/>
+    <id>https://github.com/hyl2048/60393.html</id>
+    <published>2020-10-28T13:42:01.000Z</published>
+    <updated>2020-10-28T13:42:01.080Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>middleware</title>
     <link href="https://github.com/hyl2048/36505.html"/>
     <id>https://github.com/hyl2048/36505.html</id>
     <published>2020-10-28T13:35:16.000Z</published>
-    <updated>2020-10-28T13:35:16.425Z</updated>
+    <updated>2020-10-28T13:37:30.152Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;什么叫做“中间件”&quot;&gt;&lt;a href=&quot;#什么叫做“中间件”&quot; class=&quot;headerlink&quot; title=&quot;什么叫做“中间件”&quot;&gt;&lt;/a&gt;什么叫做“中间件”&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
     
     </summary>
     
@@ -330,48 +368,6 @@
     
     </summary>
     
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Spring</title>
-    <link href="https://github.com/hyl2048/18155.html"/>
-    <id>https://github.com/hyl2048/18155.html</id>
-    <published>2020-09-03T03:00:51.000Z</published>
-    <updated>2020-09-24T09:51:02.487Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Spring-Framework&quot;&gt;&lt;a href=&quot;#Spring-Framework&quot; class=&quot;headerlink&quot; title=&quot;Spring Framework&quot;&gt;&lt;/a&gt;Spring Framework&lt;/h1&gt;&lt;h1 id=&quot;官方文档&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="About Spring" scheme="https://github.com/hyl2048/categories/About-Spring/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MyBatis</title>
-    <link href="https://github.com/hyl2048/61918.html"/>
-    <id>https://github.com/hyl2048/61918.html</id>
-    <published>2020-09-03T02:36:37.000Z</published>
-    <updated>2020-09-06T03:48:55.555Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Database" scheme="https://github.com/hyl2048/categories/Database/"/>
     
     
   </entry>
