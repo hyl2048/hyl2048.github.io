@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-11-07T04:48:09.793Z</updated>
+  <updated>2020-11-13T06:02:25.581Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,80 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>系统设计</title>
+    <link href="https://github.com/hyl2048/20341.html"/>
+    <id>https://github.com/hyl2048/20341.html</id>
+    <published>2020-11-12T15:47:10.000Z</published>
+    <updated>2020-11-13T06:02:25.581Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://znyj.ofweek.com/news/2019-11/ART-12300-8500-30418050.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Cache</title>
+    <link href="https://github.com/hyl2048/50757.html"/>
+    <id>https://github.com/hyl2048/50757.html</id>
+    <published>2020-11-07T12:47:05.000Z</published>
+    <updated>2020-11-13T06:20:18.584Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://tech.meituan.com/2017/03/17/cache-about.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>面经</title>
+    <link href="https://github.com/hyl2048/65115.html"/>
+    <id>https://github.com/hyl2048/65115.html</id>
+    <published>2020-11-07T08:06:16.000Z</published>
+    <updated>2020-11-07T10:14:20.750Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;面经&quot;&gt;&lt;a href=&quot;#面经&quot; class=&quot;headerlink&quot; title=&quot;面经&quot;&gt;&lt;/a&gt;面经&lt;/h2&gt;&lt;h3 id=&quot;美团&quot;&gt;&lt;a href=&quot;#美团&quot; class=&quot;headerlink&quot; title=&quot;美团&quot;&gt;&lt;/a&gt;美团&lt;/h3&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>ES</title>
     <link href="https://github.com/hyl2048/44402.html"/>
     <id>https://github.com/hyl2048/44402.html</id>
     <published>2020-11-06T14:06:42.000Z</published>
-    <updated>2020-11-07T04:48:09.793Z</updated>
+    <updated>2020-11-07T05:56:57.938Z</updated>
     
     <summary type="html">
     
@@ -325,57 +394,6 @@
     
     
       <category term="Big Data" scheme="https://github.com/hyl2048/categories/Big-Data/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hadoop</title>
-    <link href="https://github.com/hyl2048/31153.html"/>
-    <id>https://github.com/hyl2048/31153.html</id>
-    <published>2020-09-05T09:21:49.000Z</published>
-    <updated>2020-09-06T03:51:41.695Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="Big Data" scheme="https://github.com/hyl2048/categories/Big-Data/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MQ</title>
-    <link href="https://github.com/hyl2048/44276.html"/>
-    <id>https://github.com/hyl2048/44276.html</id>
-    <published>2020-09-04T14:55:30.000Z</published>
-    <updated>2020-09-06T03:52:52.390Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="DS" scheme="https://github.com/hyl2048/categories/DS/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Dubbo</title>
-    <link href="https://github.com/hyl2048/37154.html"/>
-    <id>https://github.com/hyl2048/37154.html</id>
-    <published>2020-09-04T14:55:00.000Z</published>
-    <updated>2020-09-06T03:52:34.229Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="DS" scheme="https://github.com/hyl2048/categories/DS/"/>
     
     
   </entry>
