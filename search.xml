@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>工作效率</title>
+      <link href="/30749.html"/>
+      <url>/30749.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/24868904/" target="_blank" rel="noopener">高效能程序员的修炼</a></p><p><a href="https://book.douban.com/subject/26657426/" target="_blank" rel="noopener">高效能人士的7个习惯</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>系统设计</title>
       <link href="/20341.html"/>
       <url>/20341.html</url>
       
-        <content type="html"><![CDATA[<p><a href="https://znyj.ofweek.com/news/2019-11/ART-12300-8500-30418050.html" target="_blank" rel="noopener">DMP系统设计</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="单体web"><a href="#单体web" class="headerlink" title="单体web"></a>单体web</h2><p>SSH:Spring+SpringMVC+Hibernate</p><p>SSM:Spring+SpringMVC+MyBatis</p><h2 id="分布式（垂直）"><a href="#分布式（垂直）" class="headerlink" title="分布式（垂直）"></a>分布式（垂直）</h2><h2 id="SOA"><a href="#SOA" class="headerlink" title="SOA"></a>SOA</h2><h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><p><a href="https://znyj.ofweek.com/news/2019-11/ART-12300-8500-30418050.html" target="_blank" rel="noopener">DMP系统设计</a></p><p>参考</p><p>[1] <a href="https://zhuanlan.zhihu.com/p/98392801" target="_blank" rel="noopener">软件架构的演变-单体架构，垂直架构，分布式架构，SOA架构和微服务架构的演变历程</a></p><p>[2] <a href="https://www.cnblogs.com/ZanderZhao/p/12033949.html" target="_blank" rel="noopener">软件体系结构</a></p><p>[3] <a href="https://book.douban.com/subject/5406042/" target="_blank" rel="noopener">The Design of Design: Essays from a Computer Scientist</a></p><p>[4] <a href="https://book.douban.com/subject/25741382/" target="_blank" rel="noopener">面向模式的软件架构 第1卷</a></p><p>[5] <a href="https://book.douban.com/subject/21624776/" target="_blank" rel="noopener">分布式系统</a></p><p>[6] <a href="https://www.zhihu.com/question/23645117" target="_blank" rel="noopener">学习分布式系统需要怎样的知识？</a></p>]]></content>
       
       
       
@@ -317,7 +330,7 @@
       <link href="/44276.html"/>
       <url>/44276.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><a href="https://juejin.im/post/6844903635046924296#heading-46" target="_blank" rel="noopener">浅谈消息队列及常见的消息中间件</a></p><p><a href="https://developer.aliyun.com/article/684866" target="_blank" rel="noopener">RPC远程调用和消息队列MQ的区别</a></p>]]></content>
       
       
       <categories>
@@ -406,7 +419,7 @@
       <link href="/15056.html"/>
       <url>/15056.html</url>
       
-        <content type="html"><![CDATA[<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p><a href="https://honeypps.com/backend/what-is-zero-copy/" target="_blank" rel="noopener">什么是零拷贝？</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="网络编程"><a href="#网络编程" class="headerlink" title="网络编程"></a>网络编程</h2><h3 id="Linux-I-O模型介绍"><a href="#Linux-I-O模型介绍" class="headerlink" title="Linux I/O模型介绍"></a>Linux I/O模型介绍</h3><h3 id="Java-I-O"><a href="#Java-I-O" class="headerlink" title="Java I/O"></a>Java I/O</h3><h3 id="Java-NIO"><a href="#Java-NIO" class="headerlink" title="Java NIO"></a>Java NIO</h3><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://book.douban.com/subject/1500149/" target="_blank" rel="noopener">Unix网络编程</a></p><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p><a href="https://honeypps.com/backend/what-is-zero-copy/" target="_blank" rel="noopener">什么是零拷贝？</a></p>]]></content>
       
       
       <categories>
