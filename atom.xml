@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-11-13T16:04:39.240Z</updated>
+  <updated>2020-11-14T03:24:11.687Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Spring-cloud</title>
+    <link href="https://github.com/hyl2048/38742.html"/>
+    <id>https://github.com/hyl2048/38742.html</id>
+    <published>2020-11-14T02:52:11.000Z</published>
+    <updated>2020-11-14T03:24:11.687Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;微服务技术栈&quot;&gt;&lt;a href=&quot;#微服务技术栈&quot; class=&quot;headerlink&quot; title=&quot;微服务技术栈&quot;&gt;&lt;/a&gt;微服务技术栈&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;//Spring-cloud.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Mongo-DB</title>
     <link href="https://github.com/hyl2048/50521.html"/>
     <id>https://github.com/hyl2048/50521.html</id>
     <published>2020-11-13T16:04:39.000Z</published>
-    <updated>2020-11-13T16:04:39.240Z</updated>
+    <updated>2020-11-13T16:14:25.559Z</updated>
     
     <summary type="html">
     
@@ -36,7 +60,7 @@
     <link href="https://github.com/hyl2048/9893.html"/>
     <id>https://github.com/hyl2048/9893.html</id>
     <published>2020-11-13T16:04:04.000Z</published>
-    <updated>2020-11-13T16:04:04.408Z</updated>
+    <updated>2020-11-13T16:14:25.608Z</updated>
     
     <summary type="html">
     
@@ -51,7 +75,7 @@
     <link href="https://github.com/hyl2048/13749.html"/>
     <id>https://github.com/hyl2048/13749.html</id>
     <published>2020-11-13T16:02:41.000Z</published>
-    <updated>2020-11-13T16:02:41.859Z</updated>
+    <updated>2020-11-13T16:14:25.133Z</updated>
     
     <summary type="html">
     
@@ -66,7 +90,7 @@
     <link href="https://github.com/hyl2048/50077.html"/>
     <id>https://github.com/hyl2048/50077.html</id>
     <published>2020-11-13T16:02:15.000Z</published>
-    <updated>2020-11-13T16:02:15.349Z</updated>
+    <updated>2020-11-13T16:14:25.106Z</updated>
     
     <summary type="html">
     
@@ -81,9 +105,17 @@
     <link href="https://github.com/hyl2048/31915.html"/>
     <id>https://github.com/hyl2048/31915.html</id>
     <published>2020-11-13T16:01:23.000Z</published>
-    <updated>2020-11-13T16:01:23.258Z</updated>
+    <updated>2020-11-14T02:48:38.943Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;ZK&quot;&gt;&lt;a href=&quot;#ZK&quot; class=&quot;headerlink&quot; title=&quot;ZK&quot;&gt;&lt;/a&gt;ZK&lt;/h2&gt;&lt;h2 id=&quot;常见问题&quot;&gt;&lt;a href=&quot;#常见问题&quot; class=&quot;headerlink&quot;
+        
+      
     
     </summary>
     
@@ -120,7 +152,7 @@
     <link href="https://github.com/hyl2048/20341.html"/>
     <id>https://github.com/hyl2048/20341.html</id>
     <published>2020-11-12T15:47:10.000Z</published>
-    <updated>2020-11-13T11:50:03.819Z</updated>
+    <updated>2020-11-14T03:05:15.436Z</updated>
     
     <summary type="html">
     
@@ -357,21 +389,6 @@
     <id>https://github.com/hyl2048/30259.html</id>
     <published>2020-09-08T06:52:57.000Z</published>
     <updated>2020-09-09T09:16:32.385Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>编码规范</title>
-    <link href="https://github.com/hyl2048/5411.html"/>
-    <id>https://github.com/hyl2048/5411.html</id>
-    <published>2020-09-06T07:06:20.000Z</published>
-    <updated>2020-09-06T12:13:38.221Z</updated>
     
     <summary type="html">
     

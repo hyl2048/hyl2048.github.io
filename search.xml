@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Spring-cloud</title>
+      <link href="/38742.html"/>
+      <url>/38742.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="微服务技术栈"><a href="#微服务技术栈" class="headerlink" title="微服务技术栈"></a>微服务技术栈</h2><p><img src="//Spring-cloud.png" alt=""></p><p><img src="//Spring-cloud1.png" alt=""></p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[1] <a href="http://springcloud.cn/" target="_blank" rel="noopener">Spring Cloud中国社区</a></p><p>[2] <a href="https://www.springcloud.cc/spring-cloud-dalston.html#_features" target="_blank" rel="noopener">与Spring-cloud搭配的组件</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mongo-DB</title>
       <link href="/50521.html"/>
       <url>/50521.html</url>
@@ -60,7 +73,7 @@
       <link href="/31915.html"/>
       <url>/31915.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="ZK"><a href="#ZK" class="headerlink" title="ZK"></a>ZK</h2><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[1] <a href="https://zookeeper.apache.org/" target="_blank" rel="noopener">Zookeeper官网</a></p><p>[2] <a href="https://github.com/apache/zookeeper">Zookeeper源码</a></p>]]></content>
       
       
       
@@ -86,7 +99,7 @@
       <link href="/20341.html"/>
       <url>/20341.html</url>
       
-        <content type="html"><![CDATA[<h2 id="单体web"><a href="#单体web" class="headerlink" title="单体web"></a>单体web</h2><p>SSH:Spring+SpringMVC+Hibernate</p><p>SSM:Spring+SpringMVC+MyBatis</p><h2 id="分布式（垂直）"><a href="#分布式（垂直）" class="headerlink" title="分布式（垂直）"></a>分布式（垂直）</h2><h2 id="SOA"><a href="#SOA" class="headerlink" title="SOA"></a>SOA</h2><h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><p><a href="https://znyj.ofweek.com/news/2019-11/ART-12300-8500-30418050.html" target="_blank" rel="noopener">DMP系统设计</a></p><p>参考</p><p>[1] <a href="https://zhuanlan.zhihu.com/p/98392801" target="_blank" rel="noopener">软件架构的演变-单体架构，垂直架构，分布式架构，SOA架构和微服务架构的演变历程</a></p><p>[2] <a href="https://www.cnblogs.com/ZanderZhao/p/12033949.html" target="_blank" rel="noopener">软件体系结构</a></p><p>[3] <a href="https://book.douban.com/subject/5406042/" target="_blank" rel="noopener">The Design of Design: Essays from a Computer Scientist</a></p><p>[4] <a href="https://book.douban.com/subject/25741382/" target="_blank" rel="noopener">面向模式的软件架构 第1卷</a></p><p>[5] <a href="https://book.douban.com/subject/21624776/" target="_blank" rel="noopener">分布式系统</a></p><p>[6] <a href="https://www.zhihu.com/question/23645117" target="_blank" rel="noopener">学习分布式系统需要怎样的知识？</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="单体web"><a href="#单体web" class="headerlink" title="单体web"></a>单体web</h2><p>SSH:Spring+SpringMVC+Hibernate</p><p>SSM:Spring+SpringMVC+MyBatis</p><h2 id="分布式（垂直）"><a href="#分布式（垂直）" class="headerlink" title="分布式（垂直）"></a>分布式（垂直）</h2><h2 id="SOA"><a href="#SOA" class="headerlink" title="SOA"></a>SOA</h2><h2 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h2><h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><p><a href="https://znyj.ofweek.com/news/2019-11/ART-12300-8500-30418050.html" target="_blank" rel="noopener">DMP系统设计</a></p><p>参考</p><p>[1] <a href="https://zhuanlan.zhihu.com/p/98392801" target="_blank" rel="noopener">软件架构的演变-单体架构，垂直架构，分布式架构，SOA架构和微服务架构的演变历程</a></p><p>[2] <a href="https://www.cnblogs.com/ZanderZhao/p/12033949.html" target="_blank" rel="noopener">软件体系结构</a></p><p>[3] <a href="https://book.douban.com/subject/5406042/" target="_blank" rel="noopener">The Design of Design: Essays from a Computer Scientist</a></p><p>[4] <a href="https://book.douban.com/subject/25741382/" target="_blank" rel="noopener">面向模式的软件架构 第1卷</a></p><p>[5] <a href="https://book.douban.com/subject/21624776/" target="_blank" rel="noopener">分布式系统</a></p><p>[6] <a href="https://www.zhihu.com/question/23645117" target="_blank" rel="noopener">学习分布式系统需要怎样的知识？</a></p><p>[7] <a href="https://www.cnblogs.com/xybaby/p/7787034.html" target="_blank" rel="noopener">什么是分布式系统，如何学习分布式系统</a></p>]]></content>
       
       
       
