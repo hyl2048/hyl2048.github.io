@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-11-14T03:55:04.921Z</updated>
+  <updated>2020-11-15T17:30:55.606Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java-tuning</title>
+    <link href="https://github.com/hyl2048/59252.html"/>
+    <id>https://github.com/hyl2048/59252.html</id>
+    <published>2020-11-15T17:29:20.000Z</published>
+    <updated>2020-11-15T17:30:55.606Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Coding&quot;&gt;&lt;a href=&quot;#Coding&quot; class=&quot;headerlink&quot; title=&quot;Coding&quot;&gt;&lt;/a&gt;Coding&lt;/h2&gt;&lt;h2 id=&quot;Database&quot;&gt;&lt;a href=&quot;#Database&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx</title>
+    <link href="https://github.com/hyl2048/9355.html"/>
+    <id>https://github.com/hyl2048/9355.html</id>
+    <published>2020-11-15T17:27:33.000Z</published>
+    <updated>2020-11-15T17:29:26.352Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Docker</title>
     <link href="https://github.com/hyl2048/40991.html"/>
     <id>https://github.com/hyl2048/40991.html</id>
     <published>2020-11-14T03:55:04.000Z</published>
-    <updated>2020-11-14T03:55:04.921Z</updated>
+    <updated>2020-11-15T16:24:59.261Z</updated>
     
     <summary type="html">
     
@@ -36,7 +74,7 @@
     <link href="https://github.com/hyl2048/55118.html"/>
     <id>https://github.com/hyl2048/55118.html</id>
     <published>2020-11-14T03:54:42.000Z</published>
-    <updated>2020-11-14T06:40:47.888Z</updated>
+    <updated>2020-11-15T16:24:59.298Z</updated>
     
     <summary type="html">
     
@@ -59,7 +97,7 @@
     <link href="https://github.com/hyl2048/37557.html"/>
     <id>https://github.com/hyl2048/37557.html</id>
     <published>2020-11-14T03:54:17.000Z</published>
-    <updated>2020-11-14T03:54:17.854Z</updated>
+    <updated>2020-11-15T16:24:59.289Z</updated>
     
     <summary type="html">
     
@@ -74,7 +112,7 @@
     <link href="https://github.com/hyl2048/32558.html"/>
     <id>https://github.com/hyl2048/32558.html</id>
     <published>2020-11-14T03:53:44.000Z</published>
-    <updated>2020-11-14T06:31:06.649Z</updated>
+    <updated>2020-11-15T17:26:02.879Z</updated>
     
     <summary type="html">
     
@@ -82,7 +120,7 @@
       
         
         
-          &lt;h2 id=&quot;路由器和过滤器&quot;&gt;&lt;a href=&quot;#路由器和过滤器&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;路由器和过滤器&quot;&gt;&lt;a href=&quot;#路由器和过滤器&quot; class=&quot;headerlink&quot; title=&quot;路由器和过滤器&quot;&gt;&lt;/a&gt;路由器和过滤器&lt;/h2&gt;&lt;h2 id=&quot;源码分析&quot;&gt;&lt;a href=&quot;#源码分析&quot; class=&quot;headerlink&quot;
         
       
     
@@ -97,7 +135,7 @@
     <link href="https://github.com/hyl2048/65363.html"/>
     <id>https://github.com/hyl2048/65363.html</id>
     <published>2020-11-14T03:53:35.000Z</published>
-    <updated>2020-11-14T06:32:40.563Z</updated>
+    <updated>2020-11-15T17:25:44.964Z</updated>
     
     <summary type="html">
     
@@ -105,7 +143,7 @@
       
         
         
-          &lt;h2 id=&quot;断路器Hystrix&quot;&gt;&lt;a href=&quot;#断路器Hystrix&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;断路器Hystrix&quot;&gt;&lt;a href=&quot;#断路器Hystrix&quot; class=&quot;headerlink&quot; title=&quot;断路器Hystrix&quot;&gt;&lt;/a&gt;断路器Hystrix&lt;/h2&gt;&lt;h2 id=&quot;源码分析&quot;&gt;&lt;a href=&quot;#源码分析&quot;
         
       
     
@@ -120,7 +158,7 @@
     <link href="https://github.com/hyl2048/20179.html"/>
     <id>https://github.com/hyl2048/20179.html</id>
     <published>2020-11-14T03:53:21.000Z</published>
-    <updated>2020-11-14T06:30:34.428Z</updated>
+    <updated>2020-11-15T17:24:33.562Z</updated>
     
     <summary type="html">
     
@@ -143,7 +181,7 @@
     <link href="https://github.com/hyl2048/57702.html"/>
     <id>https://github.com/hyl2048/57702.html</id>
     <published>2020-11-14T03:52:51.000Z</published>
-    <updated>2020-11-14T06:29:02.914Z</updated>
+    <updated>2020-11-15T17:22:33.083Z</updated>
     
     <summary type="html">
     
@@ -250,7 +288,7 @@
     <link href="https://github.com/hyl2048/31915.html"/>
     <id>https://github.com/hyl2048/31915.html</id>
     <published>2020-11-13T16:01:23.000Z</published>
-    <updated>2020-11-14T02:48:38.943Z</updated>
+    <updated>2020-11-15T17:33:07.624Z</updated>
     
     <summary type="html">
     
@@ -258,7 +296,7 @@
       
         
         
-          &lt;h2 id=&quot;ZK&quot;&gt;&lt;a href=&quot;#ZK&quot; class=&quot;headerlink&quot; title=&quot;ZK&quot;&gt;&lt;/a&gt;ZK&lt;/h2&gt;&lt;h2 id=&quot;常见问题&quot;&gt;&lt;a href=&quot;#常见问题&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;ZK&quot;&gt;&lt;a href=&quot;#ZK&quot; class=&quot;headerlink&quot; title=&quot;ZK&quot;&gt;&lt;/a&gt;ZK&lt;/h2&gt;&lt;h2 id=&quot;源码分析&quot;&gt;&lt;a href=&quot;#源码分析&quot; class=&quot;headerlink&quot;
         
       
     
@@ -377,36 +415,6 @@
           &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;p&gt;&lt;a
         
       
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>离散数学</title>
-    <link href="https://github.com/hyl2048/46708.html"/>
-    <id>https://github.com/hyl2048/46708.html</id>
-    <published>2020-10-28T13:42:11.000Z</published>
-    <updated>2020-10-28T14:24:54.026Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>计算机体系结构</title>
-    <link href="https://github.com/hyl2048/60393.html"/>
-    <id>https://github.com/hyl2048/60393.html</id>
-    <published>2020-10-28T13:42:01.000Z</published>
-    <updated>2020-10-28T14:24:54.038Z</updated>
-    
-    <summary type="html">
     
     </summary>
     
