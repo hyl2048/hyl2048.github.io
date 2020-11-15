@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-11-14T03:39:49.032Z</updated>
+  <updated>2020-11-14T03:55:04.921Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -17,11 +17,157 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Docker</title>
+    <link href="https://github.com/hyl2048/40991.html"/>
+    <id>https://github.com/hyl2048/40991.html</id>
+    <published>2020-11-14T03:55:04.000Z</published>
+    <updated>2020-11-14T03:55:04.921Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>config</title>
+    <link href="https://github.com/hyl2048/55118.html"/>
+    <id>https://github.com/hyl2048/55118.html</id>
+    <published>2020-11-14T03:54:42.000Z</published>
+    <updated>2020-11-14T06:40:47.888Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;服务配置Config&quot;&gt;&lt;a href=&quot;#服务配置Config&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Sleuth</title>
+    <link href="https://github.com/hyl2048/37557.html"/>
+    <id>https://github.com/hyl2048/37557.html</id>
+    <published>2020-11-14T03:54:17.000Z</published>
+    <updated>2020-11-14T03:54:17.854Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>zuul</title>
+    <link href="https://github.com/hyl2048/32558.html"/>
+    <id>https://github.com/hyl2048/32558.html</id>
+    <published>2020-11-14T03:53:44.000Z</published>
+    <updated>2020-11-14T06:31:06.649Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;路由器和过滤器&quot;&gt;&lt;a href=&quot;#路由器和过滤器&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hystrix</title>
+    <link href="https://github.com/hyl2048/65363.html"/>
+    <id>https://github.com/hyl2048/65363.html</id>
+    <published>2020-11-14T03:53:35.000Z</published>
+    <updated>2020-11-14T06:32:40.563Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;断路器Hystrix&quot;&gt;&lt;a href=&quot;#断路器Hystrix&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ribbon_Feign</title>
+    <link href="https://github.com/hyl2048/20179.html"/>
+    <id>https://github.com/hyl2048/20179.html</id>
+    <published>2020-11-14T03:53:21.000Z</published>
+    <updated>2020-11-14T06:30:34.428Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Ribbon-客户端负载平衡器&quot;&gt;&lt;a href=&quot;#Ribbon-客户端负载平衡器&quot; class=&quot;headerlink&quot; title=&quot;Ribbon 客户端负载平衡器&quot;&gt;&lt;/a&gt;Ribbon 客户端负载平衡器&lt;/h2&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Eureka</title>
+    <link href="https://github.com/hyl2048/57702.html"/>
+    <id>https://github.com/hyl2048/57702.html</id>
+    <published>2020-11-14T03:52:51.000Z</published>
+    <updated>2020-11-14T06:29:02.914Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;总览&quot;&gt;&lt;a href=&quot;#总览&quot; class=&quot;headerlink&quot; title=&quot;总览&quot;&gt;&lt;/a&gt;总览&lt;/h2&gt;&lt;p&gt;Eureka服务发现与注册&lt;/p&gt;
+&lt;h2 id=&quot;Eureka-Server&quot;&gt;&lt;a href=&quot;#Eureka-Server&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Spring-cloud</title>
     <link href="https://github.com/hyl2048/38742.html"/>
     <id>https://github.com/hyl2048/38742.html</id>
     <published>2020-11-14T02:52:11.000Z</published>
-    <updated>2020-11-14T03:39:49.032Z</updated>
+    <updated>2020-11-14T06:40:56.156Z</updated>
     
     <summary type="html">
     
@@ -259,135 +405,6 @@
     <id>https://github.com/hyl2048/60393.html</id>
     <published>2020-10-28T13:42:01.000Z</published>
     <updated>2020-10-28T14:24:54.038Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>middleware</title>
-    <link href="https://github.com/hyl2048/36505.html"/>
-    <id>https://github.com/hyl2048/36505.html</id>
-    <published>2020-10-28T13:35:16.000Z</published>
-    <updated>2020-10-28T13:37:30.152Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;什么叫做“中间件”&quot;&gt;&lt;a href=&quot;#什么叫做“中间件”&quot; class=&quot;headerlink&quot; title=&quot;什么叫做“中间件”&quot;&gt;&lt;/a&gt;什么叫做“中间件”&lt;/h1&gt;&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>sites_fork</title>
-    <link href="https://github.com/hyl2048/29656.html"/>
-    <id>https://github.com/hyl2048/29656.html</id>
-    <published>2020-10-28T13:09:43.000Z</published>
-    <updated>2020-10-28T13:13:35.489Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>关于编程中的i字符与编码</title>
-    <link href="https://github.com/hyl2048/19124.html"/>
-    <id>https://github.com/hyl2048/19124.html</id>
-    <published>2020-10-20T01:25:55.000Z</published>
-    <updated>2020-10-28T13:13:35.499Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Spring Boot</title>
-    <link href="https://github.com/hyl2048/10937.html"/>
-    <id>https://github.com/hyl2048/10937.html</id>
-    <published>2020-09-24T10:07:07.000Z</published>
-    <updated>2020-10-15T13:54:44.115Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;官网学习资料&quot;&gt;&lt;a href=&quot;#官网学习资料&quot; class=&quot;headerlink&quot; title=&quot;官网学习资料&quot;&gt;&lt;/a&gt;官网学习资料&lt;/h1&gt;&lt;p&gt;​    &lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Servlet</title>
-    <link href="https://github.com/hyl2048/55715.html"/>
-    <id>https://github.com/hyl2048/55715.html</id>
-    <published>2020-09-10T04:18:54.000Z</published>
-    <updated>2020-09-12T03:37:56.965Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>笔试题</title>
-    <link href="https://github.com/hyl2048/53879.html"/>
-    <id>https://github.com/hyl2048/53879.html</id>
-    <published>2020-09-09T06:12:05.000Z</published>
-    <updated>2020-09-09T13:35:54.588Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;算法与数据结构&quot;&gt;&lt;a href=&quot;#算法与数据结构&quot; class=&quot;headerlink&quot; title=&quot;算法与数据结构&quot;&gt;&lt;/a&gt;算法与数据结构&lt;/h1&gt;&lt;h2 id=&quot;笔试题&quot;&gt;&lt;a href=&quot;#笔试题&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>win-10-移动热点</title>
-    <link href="https://github.com/hyl2048/30259.html"/>
-    <id>https://github.com/hyl2048/30259.html</id>
-    <published>2020-09-08T06:52:57.000Z</published>
-    <updated>2020-09-09T09:16:32.385Z</updated>
     
     <summary type="html">
     
