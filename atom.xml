@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/hyl2048/"/>
-  <updated>2020-11-15T17:48:36.859Z</updated>
+  <updated>2020-11-24T17:52:49.578Z</updated>
   <id>https://github.com/hyl2048/</id>
   
   <author>
@@ -15,6 +15,92 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>concurrency</title>
+    <link href="https://github.com/hyl2048/35296.html"/>
+    <id>https://github.com/hyl2048/35296.html</id>
+    <published>2020-11-24T17:23:10.000Z</published>
+    <updated>2020-11-24T17:52:49.578Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;底层的并发功能与上层应用程序的并发语义之间并不存在一种简单的而只管的映射关系。为了解决在Java 底层机制与设计级策略之间的不匹配问题，我们给出了一组简化的并发程序编写规则。&lt;/p&gt;
+&lt;p&gt;设计规则和思维模式&lt;/p&gt;
+&lt;h2 id=&quot;并发编程基础理论&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sites-to-fork</title>
+    <link href="https://github.com/hyl2048/2018.html"/>
+    <id>https://github.com/hyl2048/2018.html</id>
+    <published>2020-11-24T17:20:25.000Z</published>
+    <updated>2020-11-24T17:52:49.582Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;技术博客&quot;&gt;&lt;a href=&quot;#技术博客&quot; class=&quot;headerlink&quot; title=&quot;技术博客&quot;&gt;&lt;/a&gt;技术博客&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://haldir65.github.io/tags/linux/&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo文章插图显示问题</title>
+    <link href="https://github.com/hyl2048/17877.html"/>
+    <id>https://github.com/hyl2048/17877.html</id>
+    <published>2020-11-24T17:17:58.000Z</published>
+    <updated>2020-11-24T17:52:49.580Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;方法一-GitHub路径&quot;&gt;&lt;a href=&quot;#方法一-GitHub路径&quot; class=&quot;headerlink&quot; title=&quot;方法一 GitHub路径&quot;&gt;&lt;/a&gt;方法一 GitHub路径&lt;/h2&gt;&lt;p&gt;​   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>software</title>
+    <link href="https://github.com/hyl2048/7119.html"/>
+    <id>https://github.com/hyl2048/7119.html</id>
+    <published>2020-11-24T16:27:10.000Z</published>
+    <updated>2020-11-24T16:27:37.382Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Java-tuning</title>
@@ -321,98 +407,6 @@
         
           &lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/24868904/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;高效能程序员的修炼&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>系统设计</title>
-    <link href="https://github.com/hyl2048/20341.html"/>
-    <id>https://github.com/hyl2048/20341.html</id>
-    <published>2020-11-12T15:47:10.000Z</published>
-    <updated>2020-11-14T03:05:15.436Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;单体web&quot;&gt;&lt;a href=&quot;#单体web&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Cache</title>
-    <link href="https://github.com/hyl2048/50757.html"/>
-    <id>https://github.com/hyl2048/50757.html</id>
-    <published>2020-11-07T12:47:05.000Z</published>
-    <updated>2020-11-13T06:23:01.803Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;a href=&quot;https://tech.meituan.com/2017/03/17/cache-about.html&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>面经</title>
-    <link href="https://github.com/hyl2048/65115.html"/>
-    <id>https://github.com/hyl2048/65115.html</id>
-    <published>2020-11-07T08:06:16.000Z</published>
-    <updated>2020-11-13T06:23:01.840Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;面经&quot;&gt;&lt;a href=&quot;#面经&quot; class=&quot;headerlink&quot; title=&quot;面经&quot;&gt;&lt;/a&gt;面经&lt;/h2&gt;&lt;h3 id=&quot;美团&quot;&gt;&lt;a href=&quot;#美团&quot; class=&quot;headerlink&quot; title=&quot;美团&quot;&gt;&lt;/a&gt;美团&lt;/h3&gt;&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ES</title>
-    <link href="https://github.com/hyl2048/44402.html"/>
-    <id>https://github.com/hyl2048/44402.html</id>
-    <published>2020-11-06T14:06:42.000Z</published>
-    <updated>2020-11-07T05:56:57.938Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;p&gt;&lt;a
         
       
     
