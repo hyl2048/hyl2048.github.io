@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>huang</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/hyl2048/"/>
+  <updated>2020-11-24T18:31:52.185Z</updated>
+  <id>https://github.com/hyl2048/</id>
+  
+  <author>
+    <name>yulin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring-detail</title>
+    <link href="https://github.com/hyl2048/54664.html"/>
+    <id>https://github.com/hyl2048/54664.html</id>
+    <published>2020-11-24T18:31:38.000Z</published>
+    <updated>2020-11-24T18:31:52.185Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>concurrency</title>
+    <link href="https://github.com/hyl2048/35296.html"/>
+    <id>https://github.com/hyl2048/35296.html</id>
+    <published>2020-11-24T17:23:10.000Z</published>
+    <updated>2020-11-24T17:52:49.578Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;底层的并发功能与上层应用程序的并发语义之间并不存在一种简单的而只管的映射关系。为了解决在Java 底层机制与设计级策略之间的不匹配问题，我们给出了一组简化的并发程序编写规则。&lt;/p&gt;
+&lt;p&gt;设计规则和思维模式&lt;/p&gt;
+&lt;h2 id=&quot;并发编程基础理论&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sites-to-fork</title>
+    <link href="https://github.com/hyl2048/2018.html"/>
+    <id>https://github.com/hyl2048/2018.html</id>
+    <published>2020-11-24T17:20:25.000Z</published>
+    <updated>2020-11-29T03:33:47.920Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;技术博客&quot;&gt;&lt;a href=&quot;#技术博客&quot; class=&quot;headerlink&quot; title=&quot;技术博客&quot;&gt;&lt;/a&gt;技术博客&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://haldir65.github.io/tags/linux/&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo文章插图显示问题</title>
+    <link href="https://github.com/hyl2048/17877.html"/>
+    <id>https://github.com/hyl2048/17877.html</id>
+    <published>2020-11-24T17:17:58.000Z</published>
+    <updated>2020-11-24T17:52:49.580Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;方法一-GitHub路径&quot;&gt;&lt;a href=&quot;#方法一-GitHub路径&quot; class=&quot;headerlink&quot; title=&quot;方法一 GitHub路径&quot;&gt;&lt;/a&gt;方法一 GitHub路径&lt;/h2&gt;&lt;p&gt;​   
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>software</title>
+    <link href="https://github.com/hyl2048/7119.html"/>
+    <id>https://github.com/hyl2048/7119.html</id>
+    <published>2020-11-24T16:27:10.000Z</published>
+    <updated>2020-11-24T16:27:37.382Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java-tuning</title>
+    <link href="https://github.com/hyl2048/59252.html"/>
+    <id>https://github.com/hyl2048/59252.html</id>
+    <published>2020-11-15T17:29:20.000Z</published>
+    <updated>2020-11-15T17:48:36.859Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Coding&quot;&gt;&lt;a href=&quot;#Coding&quot; class=&quot;headerlink&quot; title=&quot;Coding&quot;&gt;&lt;/a&gt;Coding&lt;/h2&gt;&lt;h2 id=&quot;Database&quot;&gt;&lt;a href=&quot;#Database&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx</title>
+    <link href="https://github.com/hyl2048/9355.html"/>
+    <id>https://github.com/hyl2048/9355.html</id>
+    <published>2020-11-15T17:27:33.000Z</published>
+    <updated>2020-11-15T17:48:36.825Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Docker</title>
+    <link href="https://github.com/hyl2048/40991.html"/>
+    <id>https://github.com/hyl2048/40991.html</id>
+    <published>2020-11-14T03:55:04.000Z</published>
+    <updated>2020-11-15T16:24:59.261Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>config</title>
+    <link href="https://github.com/hyl2048/55118.html"/>
+    <id>https://github.com/hyl2048/55118.html</id>
+    <published>2020-11-14T03:54:42.000Z</published>
+    <updated>2020-11-15T16:24:59.298Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;服务配置Config&quot;&gt;&lt;a href=&quot;#服务配置Config&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Sleuth</title>
+    <link href="https://github.com/hyl2048/37557.html"/>
+    <id>https://github.com/hyl2048/37557.html</id>
+    <published>2020-11-14T03:54:17.000Z</published>
+    <updated>2020-11-15T16:24:59.289Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>zuul</title>
+    <link href="https://github.com/hyl2048/32558.html"/>
+    <id>https://github.com/hyl2048/32558.html</id>
+    <published>2020-11-14T03:53:44.000Z</published>
+    <updated>2020-11-15T17:26:02.879Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;路由器和过滤器&quot;&gt;&lt;a href=&quot;#路由器和过滤器&quot; class=&quot;headerlink&quot; title=&quot;路由器和过滤器&quot;&gt;&lt;/a&gt;路由器和过滤器&lt;/h2&gt;&lt;h2 id=&quot;源码分析&quot;&gt;&lt;a href=&quot;#源码分析&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hystrix</title>
+    <link href="https://github.com/hyl2048/65363.html"/>
+    <id>https://github.com/hyl2048/65363.html</id>
+    <published>2020-11-14T03:53:35.000Z</published>
+    <updated>2020-11-15T17:25:44.964Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;断路器Hystrix&quot;&gt;&lt;a href=&quot;#断路器Hystrix&quot; class=&quot;headerlink&quot; title=&quot;断路器Hystrix&quot;&gt;&lt;/a&gt;断路器Hystrix&lt;/h2&gt;&lt;h2 id=&quot;源码分析&quot;&gt;&lt;a href=&quot;#源码分析&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ribbon_Feign</title>
+    <link href="https://github.com/hyl2048/20179.html"/>
+    <id>https://github.com/hyl2048/20179.html</id>
+    <published>2020-11-14T03:53:21.000Z</published>
+    <updated>2020-11-15T17:24:33.562Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Ribbon-客户端负载平衡器&quot;&gt;&lt;a href=&quot;#Ribbon-客户端负载平衡器&quot; class=&quot;headerlink&quot; title=&quot;Ribbon 客户端负载平衡器&quot;&gt;&lt;/a&gt;Ribbon 客户端负载平衡器&lt;/h2&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Eureka</title>
+    <link href="https://github.com/hyl2048/57702.html"/>
+    <id>https://github.com/hyl2048/57702.html</id>
+    <published>2020-11-14T03:52:51.000Z</published>
+    <updated>2020-11-15T17:22:33.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;总览&quot;&gt;&lt;a href=&quot;#总览&quot; class=&quot;headerlink&quot; title=&quot;总览&quot;&gt;&lt;/a&gt;总览&lt;/h2&gt;&lt;p&gt;Eureka服务发现与注册&lt;/p&gt;
+&lt;h2 id=&quot;Eureka-Server&quot;&gt;&lt;a href=&quot;#Eureka-Server&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spring-cloud</title>
+    <link href="https://github.com/hyl2048/38742.html"/>
+    <id>https://github.com/hyl2048/38742.html</id>
+    <published>2020-11-14T02:52:11.000Z</published>
+    <updated>2020-11-14T06:40:56.156Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;微服务技术栈&quot;&gt;&lt;a href=&quot;#微服务技术栈&quot; class=&quot;headerlink&quot; title=&quot;微服务技术栈&quot;&gt;&lt;/a&gt;微服务技术栈&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/38742/Spring_cloud.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mongo-DB</title>
+    <link href="https://github.com/hyl2048/50521.html"/>
+    <id>https://github.com/hyl2048/50521.html</id>
+    <published>2020-11-13T16:04:39.000Z</published>
+    <updated>2020-11-13T16:14:25.559Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sharding-sphere</title>
+    <link href="https://github.com/hyl2048/9893.html"/>
+    <id>https://github.com/hyl2048/9893.html</id>
+    <published>2020-11-13T16:04:04.000Z</published>
+    <updated>2020-11-13T16:14:25.608Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kafka</title>
+    <link href="https://github.com/hyl2048/13749.html"/>
+    <id>https://github.com/hyl2048/13749.html</id>
+    <published>2020-11-13T16:02:41.000Z</published>
+    <updated>2020-11-13T16:14:25.133Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>RocketMQ</title>
+    <link href="https://github.com/hyl2048/50077.html"/>
+    <id>https://github.com/hyl2048/50077.html</id>
+    <published>2020-11-13T16:02:15.000Z</published>
+    <updated>2020-11-13T16:14:25.106Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Zookeeper</title>
+    <link href="https://github.com/hyl2048/31915.html"/>
+    <id>https://github.com/hyl2048/31915.html</id>
+    <published>2020-11-13T16:01:23.000Z</published>
+    <updated>2020-11-15T17:33:07.624Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;ZK&quot;&gt;&lt;a href=&quot;#ZK&quot; class=&quot;headerlink&quot; title=&quot;ZK&quot;&gt;&lt;/a&gt;ZK&lt;/h2&gt;&lt;h2 id=&quot;源码分析&quot;&gt;&lt;a href=&quot;#源码分析&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
