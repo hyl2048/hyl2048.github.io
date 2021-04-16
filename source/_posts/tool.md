@@ -12,7 +12,26 @@ tags:
 categories: [ Tools ]
 ---
 
+## Java 规范（13） 
+
+   [13个规范](https://blog.csdn.net/xvshu/article/details/30532851)
+
+## 程序源码
+
+JDK源码
+
+​		[你是如何阅读JDK源码的](https://www.zhihu.com/question/19840538)
+
+框架源码
+
+​		 MyBatis
+
+## 开发规范
+
+阿里
+
 ## 语言文档
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zeal](http://www.zealdocs.org) ：脱机文档       浏览器，包含196中语言API文档，支持Windows、Linux和macOS
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zeal-docsets-xml](https://zealusercontributions.now.sh/) ：zeal 的docsets，采用xml引入
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dash](http://www.kapeli.com)：适用于Mac OS平台的软件编程文档管理工具，可以浏览API文档，以及管理代码片段工具...
@@ -24,6 +43,10 @@ categories: [ Tools ]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MATLAB](http://ww2.mathowrks.cn/help/matlab/index.html)：MATLAB API 文档
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HTML](http://developer.mozilla.org/en-US/docs/Web/HTML/Element)：HTML API 文档
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Redis](http://redisdoc.com)：Redis API 文档
+
+​		shell: [shell教程](https://www.runoob.com/linux/linux-shell.html)
+
+​        Linux命令：[Linux命令帮助文档](http://man.linuxde.net/)
 
 ## 在线平台
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Leetcode](https://leetcode-cn.com/)：算法练习等，编程能力提升的加油站
