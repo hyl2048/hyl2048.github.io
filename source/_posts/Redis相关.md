@@ -527,5 +527,5 @@ Redis提供了下面几种淘汰策略供用户选择，其中默认的策略为
 
 ## Redis 应用场景
 
-
+[应用场景](https://learnku.com/articles/33421)
 

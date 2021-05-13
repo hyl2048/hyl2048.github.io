@@ -14,6 +14,10 @@ categories:
 
 ## ZK
 
+[zookeeper应用场景](https://zhuanlan.zhihu.com/p/59669985)
+
+
+
 ## 源码分析
 
 

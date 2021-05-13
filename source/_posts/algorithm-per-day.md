@@ -12,7 +12,16 @@ password:
 summary:
 tags:
 ---
+### 在线编程题刷题平台
+
+Leetcode
+
+赛码网
+
+两个平台会作为不同企业的在线编程平台，他们的输入数据方式不太一样。赛码网中完全零开始，在使用Java语言时，使用Scanner来处理输入数据，见[Scanner类](https://blog.csdn.net/justloveyou_/article/details/69263851)的分析。
+
 ## day 1
+
 ### two-sum
 	暴力解法：时间复杂度为O（n^2）
 	运用HashMap：时间复杂度为O（1），相比较于暴力解法，在数据规模较大的时候，还是有时间上的优势的。

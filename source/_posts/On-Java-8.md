@@ -146,6 +146,8 @@ categories: Language
 
 5.[Map源码](https://weiwei02.github.io/2017/08/25/jdk/map%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/)
 
+6.[jdk、jre、jvm的区别](https://zhuanlan.zhihu.com/p/48285067)
+
 
 
 ​		
