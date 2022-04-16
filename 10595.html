@@ -481,6 +481,7 @@
                 <h2 id="相关资料"><a href="#相关资料" class="headerlink" title="相关资料"></a>相关资料</h2><p><a href="https://redis.io/documentation" target="_blank" rel="noopener">Redis官方文档</a>(EN)</p>
 <p><a href="http://redisdoc.com/string/index.html" target="_blank" rel="noopener">Redis文档</a>(CH)</p>
 <p>Redis设计与实现</p>
+<h2 id="面试常见问题"><a href="#面试常见问题" class="headerlink" title="面试常见问题"></a>面试常见问题</h2><p><a href="https://www.redis.com.cn/redis-interview-questions.html" target="_blank" rel="noopener">常见问题</a></p>
 <h2 id="线程模型"><a href="#线程模型" class="headerlink" title="线程模型"></a>线程模型</h2><p>Redis 在处理网络请求是使用单线程模型，并通过 IO 多路复用来提高并发。但是在其他模块，比如：持久化，会使用多个线程。</p>
 <p>Redis 内部使用文件事件处理器 <code>file event handler</code>，<strong>这个文件事件处理器是单线程的，所以 <code>Redis</code> 才叫做单线程的模型</strong>。它采用 IO 多路复用机制同时监听多个 <code>socket</code> ，将产生事件的 <code>socket</code> 压入内存队列中，事件分派器根据 <code>socket</code> 上的事件类型来选择对应的事件处理器进行处理。</p>
 <p>文件事件处理器的结构包含 4 个部分：</p>
@@ -839,7 +840,9 @@ for item in range(ITEMS):
 </blockquote>
 <h4 id="非精准的LRU"><a href="#非精准的LRU" class="headerlink" title="非精准的LRU"></a>非精准的LRU</h4><p>上面提到的LRU（Least Recently Used）策略，实际上 <strong>Redis 实现的 LRU 并不是可靠的 LRU</strong>，也就是名义上我们使用LRU算法淘汰键，但是实际上被淘汰的键并不一定是真正的最久没用的，这里涉及到一个权衡的问题，如果需要在全部键空间内搜索最优解，则必然会增加系统的开销，Redis是单线程的，也就是同一个实例在每一个时刻只能服务于一个客户端，所以耗时的操作一定要谨慎。</p>
 <p>为了在一定成本内实现相对的LRU，早期的 Redis 版本是 <strong>基于采样的 LRU</strong> ，也就是放弃全部键空间内搜索解改为采样空间搜索最优解。自从 Redis3.0 版本之后，Redis 作者对于基于采样的 LRU 进行了一些优化，目的是在一定的成本内让结果更靠近真实的 LRU。</p>
-<h2 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h2><h2 id="Redis-应用场景"><a href="#Redis-应用场景" class="headerlink" title="Redis 应用场景"></a>Redis 应用场景</h2>
+<h2 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h2><h2 id="Redis-应用场景"><a href="#Redis-应用场景" class="headerlink" title="Redis 应用场景"></a>Redis 应用场景</h2><p><a href="https://learnku.com/articles/33421" target="_blank" rel="noopener">应用场景</a></p>
+<p><a href="https://www.lycecho.com/archives/14478" target="_blank" rel="noopener">redis作缓存的应用场景</a></p>
+
             </div>
             <hr/>
 
@@ -1676,7 +1679,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             &copy;huang. 版权所有          
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">104.2k</span>           
+            <span class="white-color">104.9k</span>           
             <br>
             <span id="sitetime"></span>
             
