@@ -5,9 +5,9 @@
   <subtitle>Sharing</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://yulinblog.cn/"/>
+  <link href="https://hyl2048.github.io/"/>
   <updated>2022-04-16T08:15:31.785Z</updated>
-  <id>https://yulinblog.cn/</id>
+  <id>https://hyl2048.github.io/</id>
   
   <author>
     <name>yulin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>NLper_algorithm_design</title>
-    <link href="https://yulinblog.cn/38621.html"/>
-    <id>https://yulinblog.cn/38621.html</id>
+    <link href="https://hyl2048.github.io/38621.html"/>
+    <id>https://hyl2048.github.io/38621.html</id>
     <published>2022-04-16T07:51:18.000Z</published>
     <updated>2022-04-16T08:15:31.785Z</updated>
     
@@ -43,8 +43,8 @@
   
   <entry>
     <title>算法工程师</title>
-    <link href="https://yulinblog.cn/22896.html"/>
-    <id>https://yulinblog.cn/22896.html</id>
+    <link href="https://hyl2048.github.io/22896.html"/>
+    <id>https://hyl2048.github.io/22896.html</id>
     <published>2021-08-07T14:28:50.000Z</published>
     <updated>2022-04-16T07:56:22.923Z</updated>
     
@@ -58,8 +58,8 @@
   
   <entry>
     <title>网络编程</title>
-    <link href="https://yulinblog.cn/52560.html"/>
-    <id>https://yulinblog.cn/52560.html</id>
+    <link href="https://hyl2048.github.io/52560.html"/>
+    <id>https://hyl2048.github.io/52560.html</id>
     <published>2021-04-22T17:02:12.000Z</published>
     <updated>2022-04-16T07:56:22.926Z</updated>
     
@@ -82,8 +82,8 @@
   
   <entry>
     <title>Java_Web应用优化</title>
-    <link href="https://yulinblog.cn/56023.html"/>
-    <id>https://yulinblog.cn/56023.html</id>
+    <link href="https://hyl2048.github.io/56023.html"/>
+    <id>https://hyl2048.github.io/56023.html</id>
     <published>2021-04-16T06:04:15.000Z</published>
     <updated>2021-04-16T06:08:30.670Z</updated>
     
@@ -97,8 +97,8 @@
   
   <entry>
     <title>Spring-detail</title>
-    <link href="https://yulinblog.cn/54664.html"/>
-    <id>https://yulinblog.cn/54664.html</id>
+    <link href="https://hyl2048.github.io/54664.html"/>
+    <id>https://hyl2048.github.io/54664.html</id>
     <published>2020-11-24T18:31:38.000Z</published>
     <updated>2020-11-24T18:31:52.185Z</updated>
     
@@ -112,8 +112,8 @@
   
   <entry>
     <title>concurrency</title>
-    <link href="https://yulinblog.cn/35296.html"/>
-    <id>https://yulinblog.cn/35296.html</id>
+    <link href="https://hyl2048.github.io/35296.html"/>
+    <id>https://hyl2048.github.io/35296.html</id>
     <published>2020-11-24T17:23:10.000Z</published>
     <updated>2020-11-24T17:52:49.578Z</updated>
     
@@ -137,8 +137,8 @@
   
   <entry>
     <title>sites-to-fork</title>
-    <link href="https://yulinblog.cn/2018.html"/>
-    <id>https://yulinblog.cn/2018.html</id>
+    <link href="https://hyl2048.github.io/2018.html"/>
+    <id>https://hyl2048.github.io/2018.html</id>
     <published>2020-11-24T17:20:25.000Z</published>
     <updated>2020-11-29T03:33:47.920Z</updated>
     
@@ -160,8 +160,8 @@
   
   <entry>
     <title>hexo文章插图显示问题</title>
-    <link href="https://yulinblog.cn/17877.html"/>
-    <id>https://yulinblog.cn/17877.html</id>
+    <link href="https://hyl2048.github.io/17877.html"/>
+    <id>https://hyl2048.github.io/17877.html</id>
     <published>2020-11-24T17:17:58.000Z</published>
     <updated>2020-11-24T17:52:49.580Z</updated>
     
@@ -183,8 +183,8 @@
   
   <entry>
     <title>software</title>
-    <link href="https://yulinblog.cn/7119.html"/>
-    <id>https://yulinblog.cn/7119.html</id>
+    <link href="https://hyl2048.github.io/7119.html"/>
+    <id>https://hyl2048.github.io/7119.html</id>
     <published>2020-11-24T16:27:10.000Z</published>
     <updated>2020-11-24T16:27:37.382Z</updated>
     
@@ -198,8 +198,8 @@
   
   <entry>
     <title>Java-tuning</title>
-    <link href="https://yulinblog.cn/59252.html"/>
-    <id>https://yulinblog.cn/59252.html</id>
+    <link href="https://hyl2048.github.io/59252.html"/>
+    <id>https://hyl2048.github.io/59252.html</id>
     <published>2020-11-15T17:29:20.000Z</published>
     <updated>2020-11-15T17:48:36.859Z</updated>
     
@@ -221,8 +221,8 @@
   
   <entry>
     <title>Nginx</title>
-    <link href="https://yulinblog.cn/9355.html"/>
-    <id>https://yulinblog.cn/9355.html</id>
+    <link href="https://hyl2048.github.io/9355.html"/>
+    <id>https://hyl2048.github.io/9355.html</id>
     <published>2020-11-15T17:27:33.000Z</published>
     <updated>2020-11-15T17:48:36.825Z</updated>
     
@@ -236,8 +236,8 @@
   
   <entry>
     <title>Docker</title>
-    <link href="https://yulinblog.cn/40991.html"/>
-    <id>https://yulinblog.cn/40991.html</id>
+    <link href="https://hyl2048.github.io/40991.html"/>
+    <id>https://hyl2048.github.io/40991.html</id>
     <published>2020-11-14T03:55:04.000Z</published>
     <updated>2020-11-15T16:24:59.261Z</updated>
     
@@ -251,8 +251,8 @@
   
   <entry>
     <title>config</title>
-    <link href="https://yulinblog.cn/55118.html"/>
-    <id>https://yulinblog.cn/55118.html</id>
+    <link href="https://hyl2048.github.io/55118.html"/>
+    <id>https://hyl2048.github.io/55118.html</id>
     <published>2020-11-14T03:54:42.000Z</published>
     <updated>2020-11-15T16:24:59.298Z</updated>
     
@@ -274,8 +274,8 @@
   
   <entry>
     <title>Sleuth</title>
-    <link href="https://yulinblog.cn/37557.html"/>
-    <id>https://yulinblog.cn/37557.html</id>
+    <link href="https://hyl2048.github.io/37557.html"/>
+    <id>https://hyl2048.github.io/37557.html</id>
     <published>2020-11-14T03:54:17.000Z</published>
     <updated>2020-11-15T16:24:59.289Z</updated>
     
@@ -289,8 +289,8 @@
   
   <entry>
     <title>zuul</title>
-    <link href="https://yulinblog.cn/32558.html"/>
-    <id>https://yulinblog.cn/32558.html</id>
+    <link href="https://hyl2048.github.io/32558.html"/>
+    <id>https://hyl2048.github.io/32558.html</id>
     <published>2020-11-14T03:53:44.000Z</published>
     <updated>2020-11-15T17:26:02.879Z</updated>
     
@@ -312,8 +312,8 @@
   
   <entry>
     <title>Hystrix</title>
-    <link href="https://yulinblog.cn/65363.html"/>
-    <id>https://yulinblog.cn/65363.html</id>
+    <link href="https://hyl2048.github.io/65363.html"/>
+    <id>https://hyl2048.github.io/65363.html</id>
     <published>2020-11-14T03:53:35.000Z</published>
     <updated>2020-11-15T17:25:44.964Z</updated>
     
@@ -335,8 +335,8 @@
   
   <entry>
     <title>Ribbon_Feign</title>
-    <link href="https://yulinblog.cn/20179.html"/>
-    <id>https://yulinblog.cn/20179.html</id>
+    <link href="https://hyl2048.github.io/20179.html"/>
+    <id>https://hyl2048.github.io/20179.html</id>
     <published>2020-11-14T03:53:21.000Z</published>
     <updated>2020-11-15T17:24:33.562Z</updated>
     
@@ -358,8 +358,8 @@
   
   <entry>
     <title>Eureka</title>
-    <link href="https://yulinblog.cn/57702.html"/>
-    <id>https://yulinblog.cn/57702.html</id>
+    <link href="https://hyl2048.github.io/57702.html"/>
+    <id>https://hyl2048.github.io/57702.html</id>
     <published>2020-11-14T03:52:51.000Z</published>
     <updated>2020-11-15T17:22:33.083Z</updated>
     
@@ -382,8 +382,8 @@
   
   <entry>
     <title>Spring-cloud</title>
-    <link href="https://yulinblog.cn/38742.html"/>
-    <id>https://yulinblog.cn/38742.html</id>
+    <link href="https://hyl2048.github.io/38742.html"/>
+    <id>https://hyl2048.github.io/38742.html</id>
     <published>2020-11-14T02:52:11.000Z</published>
     <updated>2020-11-14T06:40:56.156Z</updated>
     
@@ -405,8 +405,8 @@
   
   <entry>
     <title>Mongo-DB</title>
-    <link href="https://yulinblog.cn/50521.html"/>
-    <id>https://yulinblog.cn/50521.html</id>
+    <link href="https://hyl2048.github.io/50521.html"/>
+    <id>https://hyl2048.github.io/50521.html</id>
     <published>2020-11-13T16:04:39.000Z</published>
     <updated>2020-11-13T16:14:25.559Z</updated>
     
